@@ -53,26 +53,26 @@ summary_map = {
 
     # Pentecost
     "Pentecost Sunday": "Pentecost Sunday",
-    "Pentecost 1": "First Sunday",
-    "Pentecost 2": "Second Sunday",
-    "Pentecost 3": "Third Sunday",
-    "Pentecost 4": "Fourth Sunday",
-    "Pentecost 5": "Fifth Sunday",
-    "Pentecost 6": "Sixth Sunday",
-    "Pentecost 7": "Seventh Sunday",
-    "Pentecost 8": "Eighth Sunday",
-    "Pentecost 9": "Ninth Sunday",
-    "Pentecost 10": "Tenth Sunday",
-    "Pentecost 11": "Eleventh Sunday",
-    "Pentecost 12": "Twelfth Sunday",
-    "Pentecost 13": "Thirteenth Sunday",
-    "Pentecost 14": "Fourteenth Sunday",
-    "Pentecost 15": "Fifteenth Sunday",
-    "Pentecost 16": "Sixteenth Sunday",
-    "Pentecost 17": "Seventeenth Sunday",
-    "Pentecost 18": "Eighteenth Sunday",
-    "Pentecost 19": "Nineteenth Sunday",
-    "Pentecost 20": "Twentieth Sunday",
+    # "Pentecost 1": "First Sunday",
+    # "Pentecost 2": "Second Sunday",
+    # "Pentecost 3": "Third Sunday",
+    # "Pentecost 4": "Fourth Sunday",
+    # "Pentecost 5": "Fifth Sunday",
+    # "Pentecost 6": "Sixth Sunday",
+    # "Pentecost 7": "Seventh Sunday",
+    # "Pentecost 8": "Eighth Sunday",
+    # "Pentecost 9": "Ninth Sunday",
+    # "Pentecost 10": "Tenth Sunday",
+    # "Pentecost 11": "Eleventh Sunday",
+    # "Pentecost 12": "Twelfth Sunday",
+    # "Pentecost 13": "Thirteenth Sunday",
+    # "Pentecost 14": "Fourteenth Sunday",
+    # "Pentecost 15": "Fifteenth Sunday",
+    # "Pentecost 16": "Sixteenth Sunday",
+    # "Pentecost 17": "Seventeenth Sunday",
+    # "Pentecost 18": "Eighteenth Sunday",
+    # "Pentecost 19": "Nineteenth Sunday",
+    # "Pentecost 20": "Twentieth Sunday",
 
     # Ordinary / Proper / Trinity
     "Ordinary 1": "First Sunday",
@@ -121,12 +121,11 @@ summary_map = {
     "Christ the King": "Christ the King"
 }
 
-# === 英文 → 中文 節期對照表 ===
-# === 英文 → 中文 節期與特殊節日對照表 ===
+# === 英中節期與特殊節日對照表 ===
 season_map = {
     # === 特殊節日 ===
-    "Last Sunday of End Time-Christ  King": "末期最後一主日-基督君王",
-    "Christmas Eve": "聖誕夜", 
+    "Last Sunday of End Time-Christ  King": "末期最後一主日-基督君王主日",
+    "Christmas Eve": "平安夜",  
     "Nativity of Our Lord": "主降生日", 
     "Reformation Day": "宗教改革日",
     "Reformation": "宗教改革日",
@@ -134,20 +133,21 @@ season_map = {
     "Christ King": "基督君王主日",
     "Christ  King": "基督君王主日",
     "Christ the King Sunday": "基督君王主日",
-    "All Saints": "諸聖日",
-    "All Saints Day": "諸聖日",
-    "All Saints' Day": "諸聖日",
+    "All Saints": "古聖紀念日", 
+    "All Saints Day": "古聖紀念日",
+    "All Saints' Day": "古聖紀念日",
+    "All Saints'": "古聖紀念日",
     "Ash Wednesday": "聖灰日",
     "Palm Sunday": "棕枝主日",
-    "Maundy Thursday": "濯足節 (聖禮拜四)",
-    "Holy Thursday": "濯足節 (聖禮拜四)",
+    "Maundy Thursday": "主立聖餐日", 
+    "Holy Thursday": "主立聖餐日",
     "Good Friday": "受難日",
     "Holy Saturday": "聖週六",
     "Easter Vigil": "復活前夕守夜",
-    "Easter Sunday": "復活節主日",
-    "Easter Day": "復活節主日",
-    "Pentecost Sunday": "聖靈降臨主日",
-    "Day of Pentecost": "聖靈降臨日 (五旬節)",
+    "Easter Sunday": "復活節", 
+    "Easter Day": "復活節",
+    "Pentecost Sunday": "聖靈降臨主日",  
+    "Day of Pentecost": "聖靈降臨主日",
     "Holy Trinity": "三一主日",
     "Trinity Sunday": "三一主日",
     "Trinity": "三一主日",
@@ -157,14 +157,14 @@ season_map = {
     "Nativity of John the Baptist": "施洗約翰誕辰",
     "Conversion of St. Paul": "聖保羅歸主日",
     "St. Michael and All Angels": "聖米迦勒與眾天使日",
-    "Transfiguration of Our Lord": "登山變像日",
-    "Transfiguration": "登山變像日",
-    "The Baptism of Our Lord": "主受洗日",
-    "Baptism of Our Lord": "主受洗日",
-    "Epiphany of Our Lord": "主顯節",
-    "Ascension": "耶穌升天節",
-    "Ascension of Our Lord": "耶穌升天節",
-    "Ascension of our Lord": "耶穌升天節",
+    "Transfiguration of Our Lord": "登山變像主日",  
+    "Transfiguration": "登山變像主日",
+    "The Baptism of Our Lord": "耶穌受洗主日",  
+    "Baptism of Our Lord": "耶穌受洗主日",
+    "Epiphany of Our Lord": "主顯日",  
+    "Ascension": "基督升天日", 
+    "Ascension of Our Lord": "基督升天日",
+    "Ascension of our Lord": "基督升天日",
     "Christmas Day": "聖誕節",
     "Chistmas Day": "聖誕節",
     "Last Judgment": "末日審判主日",
@@ -180,17 +180,31 @@ season_map = {
     "Thanksgiving": "感恩節",
     "Easter Sunday - Dawn": "復活節早晨",
     "Easter Dawn": "復活節早晨",
-    # === 季節 ===
+    # === 季節 (依據講義譯名) ===
     "Advent": "將臨期",
     "Christmas": "聖誕期",
-    "Epiphany": "主顯節",
-    "Ephphany": "主顯節",
+    "Epiphany": "顯現期", 
+    "Ephphany": "顯現期",
     "Lent": "預苦期",
     "Holy Week": "聖週",
-    "Easter": "復活節期",
-    "Pentecost": "五旬節",
+    "Easter": "復活期", 
+    "Pentecost": "聖靈降臨期",
     "Ordinary Time": "常年期",
     "End Time": "末期"
+}
+
+# === 依據講義新增：節期意義對照表 ===
+season_meaning_map = {
+    "Advent": "將臨期—預備慶祝基督的降生，預備等候基督的再臨。",
+    "Christmas": "聖誕期—慶賀基督降生，展望與基督永恆同在。",
+    "Epiphany": "顯現期-慶賀基督顯明身份，開展其在世的工作。",
+    "Ephphany": "顯現期-慶賀基督顯明身份，開展其在世的工作。",
+    "Lent": "預苦期-藉憂傷與悔罪預備等候為我們受苦受死的基督。",
+    "Holy Week": "聖週-藉憂傷與悔罪預備等候為我們受苦受死的基督。",
+    "Easter": "復活期-慶賀復活的基督已為我們勝過罪與死亡。",
+    "Pentecost": "聖靈降臨期-慶賀主應許的聖靈降臨。",
+    "Ordinary Time": "常年期-聖靈降臨後常年期，在聖靈光照中持續學習聖道。",
+    "End Time": "聖靈降臨期-慶賀主應許的聖靈降臨。"
 }
 
 # 2. 序數詞對照表
@@ -258,7 +272,13 @@ ordinal_map_2 = {
     "twenty-fourth": 24,
     "twenty-fifth": 25,
 }
-
+# === 新增：阿拉伯數字轉中文數字對照表 ===
+arabic_to_zh = {
+    "1": "一", "2": "二", "3": "三", "4": "四", "5": "五", "6": "六", "7": "七", "8": "八", "9": "九", "10": "十",
+    "11": "十一", "12": "十二", "13": "十三", "14": "十四", "15": "十五", "16": "十六", "17": "十七", "18": "十八", "19": "十九", "20": "二十",
+    "21": "二十一", "22": "二十二", "23": "二十三", "24": "二十四", "25": "二十五", "26": "二十六", "27": "二十七", "28": "二十八", "29": "二十九", "30": "三十",
+    "31": "三十一", "32": "三十二", "33": "三十三", "34": "三十四"
+}
 # === 英文 → 中文 書卷對照表 ===
 book_map = {
     "Genesis": "創世記","Exodus": "出埃及記","Leviticus": "利未記","Numbers": "民數記",
@@ -504,7 +524,7 @@ hymn_map = {
         "小羊詩歌：《有誰》"
     ],
 
-    # Easter (復活節期：復活、得勝、掌權)
+    # Easter (復活期：復活、得勝、掌權)
     ("Easter", "Easter Sunday"): [
         "約書亞樂團：《Happy Day》",
         "讚美之泉：《得勝的宣告》",
@@ -765,6 +785,12 @@ def replace_with_map(text: str, mapping: dict) -> str:
     for eng, zh in sorted(mapping.items(), key=lambda x: len(x[0]), reverse=True):
         text = re.sub(re.escape(eng), zh, text, flags=re.IGNORECASE)
     return text
+    
+def replace_season_num(m):
+    season_name = m.group(1)
+    num_str = m.group(2)
+    zh_num = arabic_to_zh.get(num_str, num_str)
+    return f"{season_name}第{zh_num}主日"
 
 # 3. 翻譯函式
 def translate_summary(summary: str) -> str:
@@ -807,11 +833,14 @@ def translate_summary(summary: str) -> str:
     match = re.search(r"\(Proper\s+(\d+)\)", summary, flags=re.IGNORECASE) 
     if match: 
         proper_num = match.group(1) 
-        summary = summary.replace(match.group(0), f"(普通期第{proper_num}組經課)")    
+        zh_num = arabic_to_zh.get(proper_num, proper_num)
+        summary = summary.replace(match.group(0), f"(常年期第{zh_num}組經課)")    
+        
     match_plain = re.search(r"Proper\s+(\d+)", summary, flags=re.IGNORECASE)
     if match_plain:
         proper_num = match_plain.group(1)
-        return f"普通期第{proper_num}組經課"
+        zh_num = arabic_to_zh.get(proper_num, proper_num)
+        return f"常年期第{zh_num}組經課"
 
     # 5. 套用 Nth Sunday 句型 (全部加上 flags=re.IGNORECASE)
     match = re.match(
@@ -859,8 +888,7 @@ def translate_summary(summary: str) -> str:
         zh_ordinal = ordinal_map.get(ordinal.capitalize(), ordinal)
         return f"{zh_ordinal}主日"
 
-    summary = re.sub(r"^(五旬節|將臨期|聖誕期|主顯節|預苦期|復活節期|常年期)\s+(\d+)$", r"\1 第\2主日", summary)
-
+    summary = re.sub(r"(聖靈降臨期|將臨期|聖誕期|顯現期|預苦期|復活期|常年期)\s+(\d+)", replace_season_num, summary)
     return summary
 
 # 翻譯片語與書卷名稱 + 特殊規則
@@ -959,30 +987,30 @@ def parse_summary(summary_text):
 
     # 1. 強制統一特殊節日名稱 (解決 Ascension, Reformation, Palm Sunday 找不到的問題)
     if "Ascension" in raw_summary:
-        return "Easter", "Ascension", "耶穌升天節"
+        return "Easter", "Ascension", "基督升天日" 
     if "Reformation" in raw_summary:
         return "Ordinary Time", "Reformation", "宗教改革日"
     if "Palm Sunday" in raw_summary or "Passion" in raw_summary:
         return "Holy Week", "Palm Sunday", "棕枝主日"
     if "Transfiguration" in raw_summary:
-        return "Epiphany", "Transfiguration", "登山變像日"
+        return "Epiphany", "Transfiguration", "登山變像主日" 
     if "Trinity" in raw_summary:
         return "Ordinary Time", "Trinity Sunday", "三一主日"
     if "All Saints" in raw_summary:
-        return "Ordinary Time", "All Saints", "諸聖日"
-    # 處理 "Last Sunday of the Church Year" [cite: 2153] 與 "Christ the King"
+        return "Ordinary Time", "All Saints", "古聖紀念日" 
+    # 處理 "Last Sunday of the Church Year" 與 "Christ the King"
     if "Christ the King" in raw_summary or ("Last Sunday" in raw_summary and "Church Year" in raw_summary):
         return "Ordinary Time", "Christ the King", "基督君王主日"
     if "Ash Wednesday" in raw_summary:
         return "Lent", "Ash Wednesday", "聖灰日"
     if "Maundy" in raw_summary or "Holy Thursday" in raw_summary:
-        return "Holy Week", "Maundy Thursday", "濯足節"
+        return "Holy Week", "Maundy Thursday", "主立聖餐日" 
     if "Good Friday" in raw_summary:
         return "Holy Week", "Good Friday", "受難日"
     if "Easter Vigil" in raw_summary:
         return "Easter", "Easter Vigil", "復活前夕守夜"
     if "Baptism" in raw_summary:
-        return "Epiphany", "First Sunday", "主受洗日"
+        return "Epiphany", "First Sunday", "耶穌受洗主日" 
 
     # 正規化名稱
     match_proper = re.search(r"Proper\s+(\d+)", raw_summary, flags=re.IGNORECASE)
@@ -1194,7 +1222,7 @@ def determine_formula(summary: str, dt: date = None) -> str:
     if "maundy" in s or "holy thursday" in s: 
         return "calculate_easter(year+1) - timedelta(days=3)"
     if "good friday" in s: return "calculate_easter(year+1) - timedelta(days=2)"
-    # 復活節期其他主日
+    # 復活期其他主日
     for word, num in ordinal_map_2.items():
         if "easter" in s and (word in s or str(num) in s):
             return f"calculate_easter(year+1) + timedelta(weeks={num-1})"
@@ -1450,6 +1478,46 @@ def get_english_lines_in_desc(text):
             lines_with_english.append(line.strip())
             
     return lines_with_english
+
+# === 代表顏色自動判斷函式 ===
+def get_liturgical_color(season, sunday):
+    """依據指定的顏色規則，精準判斷代表顏色"""
+    # 1. 將臨期：藍色
+    if season == "Advent": 
+        return "🔵 藍色"
+        
+    if season == "Christmas": 
+        return "⚪ 白色"
+        
+    if season == "Epiphany":
+        # 主顯日、耶穌受洗主日、登山變像主日 為白色
+        if sunday in ["Epiphany", "First Sunday", "Transfiguration"]: 
+            return "⚪ 白色"
+        return "🟢 綠色" 
+        
+    # 2. 預苦期與聖週
+    if season in ["Lent", "Holy Week"]:
+        # 棕枝主日、主立聖餐日：紅色
+        if sunday in ["Palm Sunday", "Maundy Thursday"]:
+            return "🔴 紅色"
+        # 受難日、聖週六：黑色
+        if sunday in ["Good Friday", "Holy Saturday"]: 
+            return "⚫ 黑色"
+        # 預苦期其他日子：紫色
+        return "🟣 紫色"
+        
+    if season == "Easter": 
+        return "⚪ 白色"
+        
+    if season in ["Pentecost", "Ordinary Time"]:
+        # 聖靈降臨主日：紅色
+        if sunday == "Pentecost Sunday": 
+            return "🔴 紅色"
+        if sunday in ["Trinity Sunday", "Christ the King"]: 
+            return "⚪ 白色"
+        return "🟢 綠色" 
+        
+    return ""
     
 # === 年度範圍設定 ===
 START_YEAR = 2025
@@ -1534,10 +1602,6 @@ for component in cal.walk():
         for line in lines:
             # 0.1 暴力清洗亂碼！
             line = re.sub(r'[–—−\x96\x97\u2013\u2014]', '-', line)
-            # 0. VIP 通道：保留空白行，維持版面美觀 (必須放在最前面！)
-            if line.strip() == "":
-                new_lines.append("")
-                continue
 
             # 1. 碰到祈禱文，開啟跳過模式
             if "Prayer of the Day" in line:
@@ -1584,6 +1648,14 @@ for component in cal.walk():
             stats["no_hymn"].append(f"{start_date.strftime('%Y%m%d')} | {summary_text}")
         if hymn_text:
             description += "\n\n今日詩歌：\n" + hymn_text
+        # --- 🌟 依據講義與客製化需求加入「代表顏色」 ---
+        color_str = get_liturgical_color(season, sunday)
+        if color_str:
+            description += f"\n\n代表顏色：{color_str}"
+
+        meaning_str = season_meaning_map.get(season, "")
+        if meaning_str:
+            description += f"\n節期意義：{meaning_str}"
 
         chinese_cycle = {"A": "甲年", "B": "乙年", "C": "丙年"}[cycle_label]
         subject = f"{subject} ({chinese_cycle})"
@@ -1647,6 +1719,13 @@ for church_year in range(2028, END_YEAR+2):
                     stats["no_hymn"].append(f"{dt.strftime('%Y%m%d')} | {translated_summary} ({e['name']})")
                     
                 description = desc_body + ("\n\n今日詩歌：\n" + hymn_text if hymn_text else "")
+                # --- 🌟 未來生成事件也要加入「代表顏色」 ---
+                color_str = get_liturgical_color(season, sunday)
+                if color_str:
+                    description += f"\n\n代表顏色：{color_str}"
+                meaning_str = season_meaning_map.get(season, "")
+                if meaning_str:
+                    description += f"\n節期意義：{meaning_str}"
             # =====================================================================
 
             subject = f"{translated_summary} ({chinese_cycle})"
