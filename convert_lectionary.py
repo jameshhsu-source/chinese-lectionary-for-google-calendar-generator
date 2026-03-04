@@ -1532,6 +1532,13 @@ for component in cal.walk():
         skip_mode = False
 
         for line in lines:
+            # 0.1 暴力清洗亂碼！
+            line = re.sub(r'[–—−\x96\x97\u2013\u2014]', '-', line)
+            # 0. VIP 通道：保留空白行，維持版面美觀 (必須放在最前面！)
+            if line.strip() == "":
+                new_lines.append("")
+                continue
+
             # 1. 碰到祈禱文，開啟跳過模式
             if "Prayer of the Day" in line:
                 skip_mode = True
@@ -1542,26 +1549,35 @@ for component in cal.walk():
             # 2. 略過 Alleluia 等冗長英文金句歡呼
             if "Alleluia" in line or "alleluia" in line.lower():
                 continue
-                
-            # 3. 略過原始的標題雜訊
+            
+            # 3. 略過舊版的標題雜訊規則 (保留你原本的邏輯)
             if re.match(r"^\s*\d+\s+[A-Za-z]", line) and ":" not in line:
                 continue
-            if re.match(r"^\s*(First Reading|Second Reading|Gospel)", line, flags=re.IGNORECASE):
+                
+            # 4. 【黑名單】如果這行有括號 (代表是替代經文或註解)，直接踢掉！
+            if "(" in line and ")" in line:
                 continue
                 
-            if line.strip() == "":
-                new_lines.append("")
+            # 5. 【白名單】判斷這行是否包含「英文字母 + 數字」(代表書卷加章節)
+            # 因為空白行已經在第 0 步安全過關了，所以這裡只會殺掉「沒有數字的純文字標題」！
+            if not re.search(r'[A-Za-z]+\s+\d+', line):
                 continue
                 
+            # 6. 如果有標題包含在內，進行翻譯
             if re.search(r"(First|Second|Third|Fourth|Fifth|Sixth|Seventh|Eighth|Ninth|Tenth|Eleventh|Twelfth|Thirteenth|Fourteenth|Fifteenth|Sixteenth|Seventeenth|Eighteenth|Nineteenth|Twentieth|Twenty-first|Twenty-second|Twenty-third|Twenty-fourth|Twenty-fifth|Twenty-sixth|Twenty-seventh|Twenty-eighth|Twenty-ninth|Thirtieth) Sunday (after|of|in)", line, flags=re.IGNORECASE):
                 line = translate_summary(line)
             
-            # 翻譯並清理行首標籤
+            # 7. 翻譯並清理行首標籤
             clean_trans = translate_text(line, cycle_label, season, sunday)
             clean_trans = re.sub(r"^(第一部分讀經|第二部分讀經|福音經課|補充經課|經課與詩篇)[\s:]*", "", clean_trans).strip()
             new_lines.append(clean_trans)
 
         description = "\n".join(new_lines)
+        # 🦃 感恩節專屬彩蛋 (特赦火雞，會跟著存入模板庫傳承百年) 🦃
+        if sunday == "Thanksgiving":
+            egg_text = "🦃 太18:18 我實在告訴你們，凡你們在地上所捆綁的，在天上也要捆綁；凡你們在地上所釋放的，在天上也要釋放。 🦃"
+            if egg_text not in description:
+                description = (description + "\n\n" + egg_text).strip()
 
         hymn_text = get_hymn_text(summary_text, start_date)
         if not hymn_text:
