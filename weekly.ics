@@ -1,0 +1,2389 @@
+BEGIN:VCALENDAR
+PRODID:-//Vanderbilt University//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Revised Common Lectionary
+X-WR-CALDESC:Calendar of readings from the RCL updated 02-27-2026
+X-WR-TIMEZONE:America/Chicago
+BEGIN:VEVENT
+DTSTART:20251130
+DTEND:20251201
+DTSTAMP:20260227T193753Z
+UID:17722210730@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday of Advent (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=a&d=1
+DESCRIPTION:Isaiah 2:1-5\nPsalm 122\nRomans 13:11-14\nMatthew 24:36-44\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=a&d=1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251207
+DTEND:20251208
+DTSTAMP:20260227T193753Z
+UID:17722210731@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday of Advent (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=a&d=2
+DESCRIPTION:Isaiah 11:1-10\nPsalm 72:1-7, 18-19\nRomans 15:4-13\nMatthew 3:1-12\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=a&d=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251214
+DTEND:20251215
+DTSTAMP:20260227T193753Z
+UID:17722210732@lectionary.library.vanderbilt.edu
+SUMMARY:Third Sunday of Advent (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=a&d=3
+DESCRIPTION:Isaiah 35:1-10\nPsalm 146:5-10 or Luke 1:46b-55\nJames 5:7-10\nMatthew 11:2-11\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=a&d=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251221
+DTEND:20251222
+DTSTAMP:20260227T193753Z
+UID:17722210733@lectionary.library.vanderbilt.edu
+SUMMARY:Fourth Sunday of Advent (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=a&d=4
+DESCRIPTION:Isaiah 7:10-16\nPsalm 80:1-7, 17-19\nRomans 1:1-7\nMatthew 1:18-25\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=a&d=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251224
+DTEND:20251226
+DTSTAMP:20260227T193753Z
+UID:17722210734@lectionary.library.vanderbilt.edu
+SUMMARY:Nativity of the Lord - Proper I (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=c&d=5
+DESCRIPTION:Isaiah 9:2-7\nPsalm 96\nTitus 2:11-14\nLuke 2:1-14, (15-20)\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=c&d=5
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251224
+DTEND:20251226
+DTSTAMP:20260227T193753Z
+UID:17722210735@lectionary.library.vanderbilt.edu
+SUMMARY:Nativity of the Lord - Proper II (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=c&d=6
+DESCRIPTION:Isaiah 62:6-12\nPsalm 97\nTitus 3:4-7\nLuke 2:(1-7), 8-20\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=c&d=6
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251224
+DTEND:20251226
+DTSTAMP:20260227T193753Z
+UID:17722210736@lectionary.library.vanderbilt.edu
+SUMMARY:Nativity of the Lord - Proper III (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=c&d=7
+DESCRIPTION:Isaiah 52:7-10\nPsalm 98\nHebrews 1:1-4, (5-12)\nJohn 1:1-14\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=c&d=7
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20251228
+DTEND:20251229
+DTSTAMP:20260227T193753Z
+UID:17722210737@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday after Christmas Day (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=c&d=8
+DESCRIPTION:Isaiah 63:7-9\nPsalm 148\nHebrews 2:10-18\nMatthew 2:13-23\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=c&d=8
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260101
+DTEND:20260102
+DTSTAMP:20260227T193753Z
+UID:17722210738@lectionary.library.vanderbilt.edu
+SUMMARY:Holy Name of Jesus (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=c&d=9
+DESCRIPTION:Numbers 6:22-27\nPsalm 8\nGalatians 4:4-7 or Philippians 2:5-11\nLuke 2:15-21\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=c&d=9
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260101
+DTEND:20260102
+DTSTAMP:20260227T193753Z
+UID:17722210739@lectionary.library.vanderbilt.edu
+SUMMARY:New Year's Day (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=c&d=10
+DESCRIPTION:Ecclesiastes 3:1-13\nPsalm 8\nRevelation 21:1-6a\nMatthew 25:31-46\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=c&d=10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260104
+DTEND:20260105
+DTSTAMP:20260227T193753Z
+UID:177222107310@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday after Christmas Day (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=c&d=11
+DESCRIPTION:Jeremiah 31:7-14 or Sirach 24:1-12\nPsalm 147:12-20 or Wisdom of Solomon 10:15-21\nEphesians 1:3-14\nJohn 1:(1-9), 10-18\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=c&d=11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260106
+DTEND:20260107
+DTSTAMP:20260227T193753Z
+UID:177222107311@lectionary.library.vanderbilt.edu
+SUMMARY:Epiphany of the Lord (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=12
+DESCRIPTION:Isaiah 60:1-6\nPsalm 72:1-7, 10-14\nEphesians 3:1-12\nMatthew 2:1-12\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260111
+DTEND:20260112
+DTSTAMP:20260227T193753Z
+UID:177222107312@lectionary.library.vanderbilt.edu
+SUMMARY:Baptism of the Lord (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=13
+DESCRIPTION:Isaiah 42:1-9\nPsalm 29\nActs 10:34-43\nMatthew 3:13-17\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=13
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260118
+DTEND:20260119
+DTSTAMP:20260227T193753Z
+UID:177222107313@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday after the Epiphany (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=14
+DESCRIPTION:Isaiah 49:1-7\nPsalm 40:1-11\n1 Corinthians 1:1-9\nJohn 1:29-42\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=14
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260125
+DTEND:20260126
+DTSTAMP:20260227T193753Z
+UID:177222107314@lectionary.library.vanderbilt.edu
+SUMMARY:Third Sunday after the Epiphany (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=15
+DESCRIPTION:Isaiah 9:1-4\nPsalm 27:1, 4-9\n1 Corinthians 1:10-18\nMatthew 4:12-23\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=15
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260201
+DTEND:20260202
+DTSTAMP:20260227T193753Z
+UID:177222107315@lectionary.library.vanderbilt.edu
+SUMMARY:Fourth Sunday after the Epiphany (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=16
+DESCRIPTION:Micah 6:1-8\nPsalm 15\n1 Corinthians 1:18-31\nMatthew 5:1-12\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=16
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260202
+DTEND:20260203
+DTSTAMP:20260227T193753Z
+UID:177222107316@lectionary.library.vanderbilt.edu
+SUMMARY:Presentation of the Lord (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=17
+DESCRIPTION:Malachi 3:1-4\nPsalm 84 or Psalm 24:7-10\nHebrews 2:14-18\nLuke 2:22-40\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=17
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260208
+DTEND:20260209
+DTSTAMP:20260227T193753Z
+UID:177222107317@lectionary.library.vanderbilt.edu
+SUMMARY:Fifth Sunday after the Epiphany (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=18
+DESCRIPTION:Isaiah 58:1-9a (9b-12)\nPsalm 112:1-9 (10)\n1 Corinthians 2:1-12 (13-16)\nMatthew 5:13-20\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=18
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260215
+DTEND:20260216
+DTSTAMP:20260227T193753Z
+UID:177222107318@lectionary.library.vanderbilt.edu
+SUMMARY:Transfiguration Sunday (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=23
+DESCRIPTION:Exodus 24:12-18\nPsalm 2 or Psalm 99\n2 Peter 1:16-21\nMatthew 17:1-9\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=e&d=23
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260218
+DTEND:20260219
+DTSTAMP:20260227T193753Z
+UID:177222107319@lectionary.library.vanderbilt.edu
+SUMMARY:Ash Wednesday (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=24
+DESCRIPTION:Joel 2:1-2, 12-17 or Isaiah 58:1-12\nPsalm 51:1-17\n2 Corinthians 5:20b-6:10\nMatthew 6:1-6, 16-21\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=24
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260222
+DTEND:20260223
+DTSTAMP:20260227T193753Z
+UID:177222107320@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday in Lent (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=25
+DESCRIPTION:Genesis 2:15-17; 3:1-7\nPsalm 32\nRomans 5:12-19\nMatthew 4:1-11\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=25
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260301
+DTEND:20260302
+DTSTAMP:20260227T193753Z
+UID:177222107321@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday in Lent (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=26
+DESCRIPTION:Genesis 12:1-4a\nPsalm 121\nRomans 4:1-5, 13-17\nJohn 3:1-17 or Matthew 17:1-9\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=26
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260308
+DTEND:20260309
+DTSTAMP:20260227T193753Z
+UID:177222107322@lectionary.library.vanderbilt.edu
+SUMMARY:Third Sunday in Lent (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=27
+DESCRIPTION:Exodus 17:1-7\nPsalm 95\nRomans 5:1-11\nJohn 4:5-42\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=27
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260315
+DTEND:20260316
+DTSTAMP:20260227T193753Z
+UID:177222107323@lectionary.library.vanderbilt.edu
+SUMMARY:Fourth Sunday in Lent (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=28
+DESCRIPTION:1 Samuel 16:1-13\nPsalm 23\nEphesians 5:8-14\nJohn 9:1-41\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=28
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260322
+DTEND:20260323
+DTSTAMP:20260227T193753Z
+UID:177222107324@lectionary.library.vanderbilt.edu
+SUMMARY:Fifth Sunday in Lent (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=29
+DESCRIPTION:Ezekiel 37:1-14\nPsalm 130\nRomans 8:6-11\nJohn 11:1-45\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=29
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260325
+DTEND:20260326
+DTSTAMP:20260227T193753Z
+UID:177222107325@lectionary.library.vanderbilt.edu
+SUMMARY:Annunciation of the Lord (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=30
+DESCRIPTION:Isaiah 7:10-14\nPsalm 45 or Psalm 40:5-10\nHebrews 10:4-10\nLuke 1:26-38\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=30
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260329
+DTEND:20260330
+DTSTAMP:20260227T193753Z
+UID:177222107326@lectionary.library.vanderbilt.edu
+SUMMARY:Liturgy of the Palms (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=33
+DESCRIPTION:Psalm 118:1-2, 19-29\nMatthew 21:1-11\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=33
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260329
+DTEND:20260330
+DTSTAMP:20260227T193753Z
+UID:177222107327@lectionary.library.vanderbilt.edu
+SUMMARY:Liturgy of the Passion (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=34
+DESCRIPTION:Isaiah 50:4-9a\nPsalm 31:9-16\nPhilippians 2:5-11\nMatthew 26:14-27:66 or Matthew 27:11-54\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=l&d=34
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260330
+DTEND:20260331
+DTSTAMP:20260227T193753Z
+UID:177222107328@lectionary.library.vanderbilt.edu
+SUMMARY:Monday of Holy Week (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=h&d=35
+DESCRIPTION:Isaiah 42:1-9\nPsalm 36:5-11\nHebrews 9:11-15\nJohn 12:1-11\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=h&d=35
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260331
+DTEND:20260401
+DTSTAMP:20260227T193753Z
+UID:177222107329@lectionary.library.vanderbilt.edu
+SUMMARY:Tuesday of Holy Week (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=h&d=36
+DESCRIPTION:Isaiah 49:1-7\nPsalm 71:1-14\n1 Corinthians 1:18-31\nJohn 12:20-36\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=h&d=36
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260401
+DTEND:20260402
+DTSTAMP:20260227T193753Z
+UID:177222107330@lectionary.library.vanderbilt.edu
+SUMMARY:Wednesday of Holy Week (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=h&d=37
+DESCRIPTION:Isaiah 50:4-9a\nPsalm 70\nHebrews 12:1-3\nJohn 13:21-32\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=h&d=37
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260402
+DTEND:20260403
+DTSTAMP:20260227T193753Z
+UID:177222107331@lectionary.library.vanderbilt.edu
+SUMMARY:Maundy Thursday (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=h&d=38
+DESCRIPTION:Exodus 12:1-4, (5-10), 11-14\nPsalm 116:1-2, 12-19\n1 Corinthians 11:23-26\nJohn 13:1-17, 31b-35\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=h&d=38
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260403
+DTEND:20260404
+DTSTAMP:20260227T193753Z
+UID:177222107332@lectionary.library.vanderbilt.edu
+SUMMARY:Good Friday (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=h&d=39
+DESCRIPTION:Isaiah 52:13-53:12\nPsalm 22\nHebrews 10:16-25 or Hebrews 4:14-16; 5:7-9\nJohn 18:1-19:42\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=h&d=39
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260404
+DTEND:20260405
+DTSTAMP:20260227T193753Z
+UID:177222107333@lectionary.library.vanderbilt.edu
+SUMMARY:Holy Saturday (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=h&d=40
+DESCRIPTION:Job 14:1-14 or Lamentations 3:1-9, 19-24\nPsalm 31:1-4, 15-16\n1 Peter 4:1-8\nMatthew 27:57-66 or John 19:38-42\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=h&d=40
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260405
+DTEND:20260406
+DTSTAMP:20260227T193753Z
+UID:177222107334@lectionary.library.vanderbilt.edu
+SUMMARY:Easter Vigil (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=41
+DESCRIPTION:See the Easter Vigil page for full list of readings: https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=41
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260405
+DTEND:20260406
+DTSTAMP:20260227T193753Z
+UID:177222107335@lectionary.library.vanderbilt.edu
+SUMMARY:Resurrection of the Lord (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=42
+DESCRIPTION:* Acts 10:34-43 or Jeremiah 31:1-6\nPsalm 118:1-2, 14-24\nColossians 3:1-4 or Acts 10:34-43\nJohn 20:1-18 or Matthew 28:1-10\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=42
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260405
+DTEND:20260406
+DTSTAMP:20260227T193753Z
+UID:177222107336@lectionary.library.vanderbilt.edu
+SUMMARY:Easter Evening (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=43
+DESCRIPTION:* Isaiah 25:6-9\nPsalm 114\n1 Corinthians 5:6b-8\nLuke 24:13-49\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=43
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260412
+DTEND:20260413
+DTSTAMP:20260227T193753Z
+UID:177222107337@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday of Easter (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=44
+DESCRIPTION:* Acts 2:14a, 22-32\nPsalm 16\n1 Peter 1:3-9\nJohn 20:19-31\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=44
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260419
+DTEND:20260420
+DTSTAMP:20260227T193753Z
+UID:177222107338@lectionary.library.vanderbilt.edu
+SUMMARY:Third Sunday of Easter (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=45
+DESCRIPTION:* Acts 2:14a, 36-41\nPsalm 116:1-4, 12-19\n1 Peter 1:17-23\nLuke 24:13-35\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=45
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260426
+DTEND:20260427
+DTSTAMP:20260227T193753Z
+UID:177222107339@lectionary.library.vanderbilt.edu
+SUMMARY:Fourth Sunday of Easter (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=46
+DESCRIPTION:* Acts 2:42-47\nPsalm 23\n1 Peter 2:19-25\nJohn 10:1-10\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=46
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260503
+DTEND:20260504
+DTSTAMP:20260227T193753Z
+UID:177222107340@lectionary.library.vanderbilt.edu
+SUMMARY:Fifth Sunday of Easter (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=47
+DESCRIPTION:* Acts 7:55-60\nPsalm 31:1-5, 15-16\n1 Peter 2:2-10\nJohn 14:1-14\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=47
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260510
+DTEND:20260511
+DTSTAMP:20260227T193753Z
+UID:177222107341@lectionary.library.vanderbilt.edu
+SUMMARY:Sixth Sunday of Easter (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=48
+DESCRIPTION:* Acts 17:22-31\nPsalm 66:8-20\n1 Peter 3:13-22\nJohn 14:15-21\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=48
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260514
+DTEND:20260515
+DTSTAMP:20260227T193753Z
+UID:177222107342@lectionary.library.vanderbilt.edu
+SUMMARY:Ascension of the Lord (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=49
+DESCRIPTION:* Acts 1:1-11\nPsalm 47 or Psalm 93\nEphesians 1:15-23\nLuke 24:44-53\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=49
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260517
+DTEND:20260518
+DTSTAMP:20260227T193753Z
+UID:177222107343@lectionary.library.vanderbilt.edu
+SUMMARY:Seventh Sunday of Easter (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=50
+DESCRIPTION:* Acts 1:6-14\nPsalm 68:1-10, 32-35\n1 Peter 4:12-14; 5:6-11\nJohn 17:1-11\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=50
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260524
+DTEND:20260525
+DTSTAMP:20260227T193753Z
+UID:177222107344@lectionary.library.vanderbilt.edu
+SUMMARY:Day of Pentecost (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=51
+DESCRIPTION:* Acts 2:1-21 or Numbers 11:24-30\nPsalm 104:24-34, 35b\n1 Corinthians 12:3b-13 or Acts 2:1-21\nJohn 20:19-23 or John 7:37-39\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=s&d=51
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260531
+DTEND:20260601
+DTSTAMP:20260227T193753Z
+UID:177222107345@lectionary.library.vanderbilt.edu
+SUMMARY:Visitation of Mary to Elizabeth (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=55
+DESCRIPTION:1 Samuel 2:1-10\nPsalm 113\nRomans 12:9-16b\nLuke 1:39-57\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=55
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260531
+DTEND:20260601
+DTSTAMP:20260227T193753Z
+UID:177222107346@lectionary.library.vanderbilt.edu
+SUMMARY:Trinity Sunday (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=52
+DESCRIPTION:Genesis 1:1-2:4a and  Psalm 8\n2 Corinthians 13:11-13\nMatthew 28:16-20\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=52
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260607
+DTEND:20260608
+DTSTAMP:20260227T193753Z
+UID:177222107347@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 5 (10) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=59
+DESCRIPTION:Genesis 12:1-9 and  Psalm 33:1-12\nHosea 5:15-6:6 and  Psalm 50:7-15\nRomans 4:13-25\nMatthew 9:9-13, 18-26\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=59
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260614
+DTEND:20260615
+DTSTAMP:20260227T193753Z
+UID:177222107348@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 6 (11) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=60
+DESCRIPTION:Genesis 18:1-15, (21:1-7) and  Psalm 116:1-2, 12-19\nExodus 19:2-8a and  Psalm 100\nRomans 5:1-8\nMatthew 9:35-10:8, (9-23)\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=60
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260621
+DTEND:20260622
+DTSTAMP:20260227T193753Z
+UID:177222107349@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 7 (12) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=61
+DESCRIPTION:Genesis 21:8-21 and  Psalm 86:1-10, 16-17\nJeremiah 20:7-13 and  Psalm 69:7-10, (11-15), 16-18\nRomans 6:1b-11\nMatthew 10:24-39\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=61
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260628
+DTEND:20260629
+DTSTAMP:20260227T193753Z
+UID:177222107350@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 8 (13) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=62
+DESCRIPTION:Genesis 22:1-14 and  Psalm 13\nJeremiah 28:5-9 and  Psalm 89:1-4, 15-18\nRomans 6:12-23\nMatthew 10:40-42\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=62
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260705
+DTEND:20260706
+DTSTAMP:20260227T193753Z
+UID:177222107351@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 9 (14) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=63
+DESCRIPTION:Genesis 24:34-38, 42-49, 58-67 and  Psalm 45:10-17 or Song of Solomon 2:8-13\nZechariah 9:9-12 and  Psalm 145:8-14\nRomans 7:15-25a\nMatthew 11:16-19, 25-30\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=63
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260712
+DTEND:20260713
+DTSTAMP:20260227T193753Z
+UID:177222107352@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 10 (15) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=64
+DESCRIPTION:Genesis 25:19-34 and  Psalm 119:105-112\nIsaiah 55:10-13 and  Psalm 65:(1-8), 9-13\nRomans 8:1-11\nMatthew 13:1-9, 18-23\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=64
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260719
+DTEND:20260720
+DTSTAMP:20260227T193753Z
+UID:177222107353@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 11 (16) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=65
+DESCRIPTION:Genesis 28:10-19a and  Psalm 139:1-12, 23-24\nWisdom of Solomon 12:13, 16-19 or Isaiah 44:6-8 and  Psalm 86:11-17\nRomans 8:12-25\nMatthew 13:24-30, 36-43\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=65
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260726
+DTEND:20260727
+DTSTAMP:20260227T193753Z
+UID:177222107354@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 12 (17) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=66
+DESCRIPTION:Genesis 29:15-28 and  Psalm 105:1-11, 45b or Psalm 128\n1 Kings 3:5-12 and  Psalm 119:129-136\nRomans 8:26-39\nMatthew 13:31-33, 44-52\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=66
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260802
+DTEND:20260803
+DTSTAMP:20260227T193753Z
+UID:177222107355@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 13 (18) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=67
+DESCRIPTION:Genesis 32:22-31 and  Psalm 17:1-7, 15\nIsaiah 55:1-5 and  Psalm 145:8-9, 14-21\nRomans 9:1-5\nMatthew 14:13-21\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=67
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260809
+DTEND:20260810
+DTSTAMP:20260227T193753Z
+UID:177222107356@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 14 (19) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=68
+DESCRIPTION:Genesis 37:1-4, 12-28 and  Psalm 105: 1-6, 16-22, 45b\n1 Kings 19:9-18 and  Psalm 85:8-13\nRomans 10:5-15\nMatthew 14:22-33\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=68
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260816
+DTEND:20260817
+DTSTAMP:20260227T193753Z
+UID:177222107357@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 15 (20) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=69
+DESCRIPTION:Genesis 45:1-15 and  Psalm 133\nIsaiah 56:1, 6-8 and  Psalm 67\nRomans 11:1-2a, 29-32\nMatthew 15: (10-20), 21-28\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=69
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260823
+DTEND:20260824
+DTSTAMP:20260227T193753Z
+UID:177222107358@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 16 (21) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=70
+DESCRIPTION:Exodus 1:8-2:10 and  Psalm 124\nIsaiah 51:1-6 and  Psalm 138\nRomans 12:1-8\nMatthew 16:13-20\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=70
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260830
+DTEND:20260831
+DTSTAMP:20260227T193753Z
+UID:177222107359@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 17 (22) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=71
+DESCRIPTION:Exodus 3:1-15 and  Psalm 105:1-6, 23-26, 45b\nJeremiah 15:15-21 and  Psalm 26:1-8\nRomans 12:9-21\nMatthew 16:21-28\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=71
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260906
+DTEND:20260907
+DTSTAMP:20260227T193753Z
+UID:177222107360@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 18 (23) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=72
+DESCRIPTION:Exodus 12:1-14 and  Psalm 149\nEzekiel 33:7-11 and  Psalm 119:33-40\nRomans 13:8-14\nMatthew 18:15-20\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=72
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260913
+DTEND:20260914
+DTSTAMP:20260227T193753Z
+UID:177222107361@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 19 (24) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=75
+DESCRIPTION:Exodus 14:19-31 and  Psalm 114 or Exodus 15:1b-11, 20-21\nGenesis 50:15-21 and  Psalm 103:(1-7), 8-13\nRomans 14:1-12\nMatthew 18:21-35\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=75
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260914
+DTEND:20260915
+DTSTAMP:20260227T193753Z
+UID:177222107362@lectionary.library.vanderbilt.edu
+SUMMARY:Holy Cross (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=74
+DESCRIPTION:Numbers 21:4b-9 and  Psalm 98:1-5 or Psalm 78:1-2, 34-38\n1 Corinthians 1:18-24\nJohn 3:13-17\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=74
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260920
+DTEND:20260921
+DTSTAMP:20260227T193753Z
+UID:177222107363@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 20 (25) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=76
+DESCRIPTION:Exodus 16:2-15 and  Psalm 105:1-6, 37-45\nJonah 3:10-4:11 and  Psalm 145:1-8\nPhilippians 1:21-30\nMatthew 20:1-16\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=76
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260927
+DTEND:20260928
+DTSTAMP:20260227T193753Z
+UID:177222107364@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 21 (26) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=77
+DESCRIPTION:Exodus 17:1-7 and  Psalm 78:1-4, 12-16\nEzekiel 18:1-4, 25-32 and  Psalm 25:1-9\nPhilippians 2:1-13\nMatthew 21:23-32\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=77
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261004
+DTEND:20261005
+DTSTAMP:20260227T193753Z
+UID:177222107365@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 22 (27) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=78
+DESCRIPTION:Exodus 20:1-4, 7-9, 12-20 and  Psalm 19\nIsaiah 5:1-7 and  Psalm 80:7-15\nPhilippians 3:4b-14\nMatthew 21:33-46\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=78
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261011
+DTEND:20261012
+DTSTAMP:20260227T193753Z
+UID:177222107366@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 23 (28) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=79
+DESCRIPTION:Exodus 32:1-14 and  Psalm 106:1-6, 19-23\nIsaiah 25:1-9 and  Psalm 23\nPhilippians 4:1-9\nMatthew 22:1-14\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=79
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261012
+DTEND:20261013
+DTSTAMP:20260227T193753Z
+UID:177222107367@lectionary.library.vanderbilt.edu
+SUMMARY:Canadian Thanksgiving Day (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=89
+DESCRIPTION:Deuteronomy 8:7-18 and  Psalm 65\n2 Corinthians 9:6-15\nLuke 17:11-19\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=89
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261018
+DTEND:20261019
+DTSTAMP:20260227T193753Z
+UID:177222107368@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 24 (29) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=80
+DESCRIPTION:Exodus 33:12-23 and  Psalm 99\nIsaiah 45:1-7 and  Psalm 96:1-9, (10-13)\n1 Thessalonians 1:1-10\nMatthew 22:15-22\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=80
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261025
+DTEND:20261026
+DTSTAMP:20260227T193753Z
+UID:177222107369@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 25 (30) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=81
+DESCRIPTION:Deuteronomy 34:1-12 and  Psalm 90:1-6, 13-17\nLeviticus 19:1-2, 15-18 and  Psalm 1\n1 Thessalonians 2:1-8\nMatthew 22:34-46\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=81
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261101
+DTEND:20261102
+DTSTAMP:20260227T193753Z
+UID:177222107370@lectionary.library.vanderbilt.edu
+SUMMARY:All Saints Day (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=83
+DESCRIPTION:Revelation 7:9-17 and  Psalm 34:1-10, 22\n1 John 3:1-3\nMatthew 5:1-12\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=83
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261101
+DTEND:20261102
+DTSTAMP:20260227T193753Z
+UID:177222107371@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 26 (31) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=82
+DESCRIPTION:Joshua 3:7-17 and  Psalm 107:1-7, 33-37\nMicah 3:5-12 and  Psalm 43\n1 Thessalonians 2:9-13\nMatthew 23:1-12\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=82
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261108
+DTEND:20261109
+DTSTAMP:20260227T193753Z
+UID:177222107372@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 27 (32) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=84
+DESCRIPTION:Joshua 24:1-3a, 14-25 and  Psalm 78:1-7\nWisdom of Solomon 6:12-16 or Amos 5:18-24 and  Wisdom of Solomon 6:17-20 or Psalm 70\n1 Thessalonians 4:13-18\nMatthew 25:1-13\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=84
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261115
+DTEND:20261116
+DTSTAMP:20260227T193753Z
+UID:177222107373@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 28 (33) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=85
+DESCRIPTION:Judges 4:1-7 and  Psalm 123\nZephaniah 1:7, 12-18 and  Psalm 90:1-8, (9-11), 12\n1 Thessalonians 5:1-11\nMatthew 25:14-30\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=85
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261122
+DTEND:20261123
+DTSTAMP:20260227T193753Z
+UID:177222107374@lectionary.library.vanderbilt.edu
+SUMMARY:Reign of Christ - Proper 29 (34) (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=86
+DESCRIPTION:Ezekiel 34:11-16, 20-24 and  Psalm 100\nEzekiel 34:11-16, 20-24 and  Psalm 95:1-7a\nEphesians 1:15-23\nMatthew 25:31-46\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=86
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261126
+DTEND:20261127
+DTSTAMP:20260227T193753Z
+UID:177222107375@lectionary.library.vanderbilt.edu
+SUMMARY:Thanksgiving Day (Year A)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=87
+DESCRIPTION:Deuteronomy 8:7-18 and  Psalm 65\n2 Corinthians 9:6-15\nLuke 17:11-19\nhttps://lectionary.library.vanderbilt.edu/texts/?y=17134&z=p&d=87
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261129
+DTEND:20261130
+DTSTAMP:20260227T193753Z
+UID:177222107376@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday of Advent (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=a&d=1
+DESCRIPTION:Isaiah 64:1-9\nPsalm 80:1-7, 17-19\n1 Corinthians 1:3-9\nMark 13:24-37\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=a&d=1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261206
+DTEND:20261207
+DTSTAMP:20260227T193753Z
+UID:177222107377@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday of Advent (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=a&d=2
+DESCRIPTION:Isaiah 40:1-11\nPsalm 85:1-2, 8-13\n2 Peter 3:8-15a\nMark 1:1-8\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=a&d=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261213
+DTEND:20261214
+DTSTAMP:20260227T193753Z
+UID:177222107378@lectionary.library.vanderbilt.edu
+SUMMARY:Third Sunday of Advent (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=a&d=3
+DESCRIPTION:Isaiah 61:1-4, 8-11\nPsalm 126 or Luke 1:46b-55\n1 Thessalonians 5:16-24\nJohn 1:6-8, 19-28\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=a&d=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261220
+DTEND:20261221
+DTSTAMP:20260227T193753Z
+UID:177222107379@lectionary.library.vanderbilt.edu
+SUMMARY:Fourth Sunday of Advent (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=a&d=4
+DESCRIPTION:2 Samuel 7:1-11, 16\nLuke 1:46b-55 or Psalm 89:1-4, 19-26\nRomans 16:25-27\nLuke 1:26-38\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=a&d=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261224
+DTEND:20261226
+DTSTAMP:20260227T193753Z
+UID:177222107380@lectionary.library.vanderbilt.edu
+SUMMARY:Nativity of the Lord - Proper I (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=c&d=5
+DESCRIPTION:Isaiah 9:2-7\nPsalm 96\nTitus 2:11-14\nLuke 2:1-14, (15-20)\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=c&d=5
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261224
+DTEND:20261226
+DTSTAMP:20260227T193753Z
+UID:177222107381@lectionary.library.vanderbilt.edu
+SUMMARY:Nativity of the Lord - Proper II (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=c&d=6
+DESCRIPTION:Isaiah 62:6-12\nPsalm 97\nTitus 3:4-7\nLuke 2:(1-7), 8-20\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=c&d=6
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261224
+DTEND:20261226
+DTSTAMP:20260227T193753Z
+UID:177222107382@lectionary.library.vanderbilt.edu
+SUMMARY:Nativity of the Lord - Proper III (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=c&d=7
+DESCRIPTION:Isaiah 52:7-10\nPsalm 98\nHebrews 1:1-4, (5-12)\nJohn 1:1-14\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=c&d=7
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261227
+DTEND:20261228
+DTSTAMP:20260227T193753Z
+UID:177222107383@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday after Christmas Day (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=c&d=8
+DESCRIPTION:Isaiah 61:10-62:3\nPsalm 148\nGalatians 4:4-7\nLuke 2:22-40\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=c&d=8
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270101
+DTEND:20270102
+DTSTAMP:20260227T193753Z
+UID:177222107384@lectionary.library.vanderbilt.edu
+SUMMARY:Holy Name of Jesus (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=c&d=9
+DESCRIPTION:Numbers 6:22-27\nPsalm 8\nGalatians 4:4-7 or Philippians 2:5-11\nLuke 2:15-21\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=c&d=9
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270101
+DTEND:20270102
+DTSTAMP:20260227T193753Z
+UID:177222107385@lectionary.library.vanderbilt.edu
+SUMMARY:New Year's Day (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=c&d=10
+DESCRIPTION:Ecclesiastes 3:1-13\nPsalm 8\nRevelation 21:1-6a\nMatthew 25:31-46\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=c&d=10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270103
+DTEND:20270104
+DTSTAMP:20260227T193753Z
+UID:177222107386@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday after Christmas Day (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=c&d=11
+DESCRIPTION:Jeremiah 31:7-14 or Sirach 24:1-12\nPsalm 147:12-20 or Wisdom of Solomon 10:15-21\nEphesians 1:3-14\nJohn 1:(1-9), 10-18\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=c&d=11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270106
+DTEND:20270107
+DTSTAMP:20260227T193753Z
+UID:177222107387@lectionary.library.vanderbilt.edu
+SUMMARY:Epiphany of the Lord (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=e&d=12
+DESCRIPTION:Isaiah 60:1-6\nPsalm 72:1-7, 10-14\nEphesians 3:1-12\nMatthew 2:1-12\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=e&d=12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270110
+DTEND:20270111
+DTSTAMP:20260227T193753Z
+UID:177222107388@lectionary.library.vanderbilt.edu
+SUMMARY:Baptism of the Lord (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=e&d=13
+DESCRIPTION:Genesis 1:1-5\nPsalm 29\nActs 19:1-7\nMark 1:4-11\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=e&d=13
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270117
+DTEND:20270118
+DTSTAMP:20260227T193753Z
+UID:177222107389@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday after the Epiphany (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=e&d=14
+DESCRIPTION:1 Samuel 3:1-10, (11-20)\nPsalm 139:1-6, 13-18\n1 Corinthians 6:12-20\nJohn 1:43-51\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=e&d=14
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270124
+DTEND:20270125
+DTSTAMP:20260227T193753Z
+UID:177222107390@lectionary.library.vanderbilt.edu
+SUMMARY:Third Sunday after the Epiphany (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=e&d=15
+DESCRIPTION:Jonah 3:1-5, 10\nPsalm 62:5-12\n1 Corinthians 7:29-31\nMark 1:14-20\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=e&d=15
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270131
+DTEND:20270201
+DTSTAMP:20260227T193753Z
+UID:177222107391@lectionary.library.vanderbilt.edu
+SUMMARY:Fourth Sunday after the Epiphany (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=e&d=16
+DESCRIPTION:Deuteronomy 18:15-20\nPsalm 111\n1 Corinthians 8:1-13\nMark 1:21-28\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=e&d=16
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270202
+DTEND:20270203
+DTSTAMP:20260227T193753Z
+UID:177222107392@lectionary.library.vanderbilt.edu
+SUMMARY:Presentation of the Lord (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=e&d=17
+DESCRIPTION:Malachi 3:1-4\nPsalm 84 or Psalm 24:7-10\nHebrews 2:14-18\nLuke 2:22-40\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=e&d=17
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270207
+DTEND:20270208
+DTSTAMP:20260227T193753Z
+UID:177222107393@lectionary.library.vanderbilt.edu
+SUMMARY:Transfiguration Sunday (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=e&d=23
+DESCRIPTION:2 Kings 2:1-12\nPsalm 50:1-6\n2 Corinthians 4:3-6\nMark 9:2-9\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=e&d=23
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270210
+DTEND:20270211
+DTSTAMP:20260227T193753Z
+UID:177222107394@lectionary.library.vanderbilt.edu
+SUMMARY:Ash Wednesday (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=24
+DESCRIPTION:Joel 2:1-2, 12-17 or Isaiah 58:1-12\nPsalm 51:1-17\n2 Corinthians 5:20b-6:10\nMatthew 6:1-6, 16-21\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=24
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270214
+DTEND:20270215
+DTSTAMP:20260227T193753Z
+UID:177222107395@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday in Lent (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=25
+DESCRIPTION:Genesis 9:8-17\nPsalm 25:1-10\n1 Peter 3:18-22\nMark 1:9-15\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=25
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270221
+DTEND:20270222
+DTSTAMP:20260227T193753Z
+UID:177222107396@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday in Lent (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=26
+DESCRIPTION:Genesis 17:1-7, 15-16\nPsalm 22:23-31\nRomans 4:13-25\nMark 8:31-38 or Mark 9:2-9\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=26
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270228
+DTEND:20270301
+DTSTAMP:20260227T193753Z
+UID:177222107397@lectionary.library.vanderbilt.edu
+SUMMARY:Third Sunday in Lent (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=27
+DESCRIPTION:Exodus 20:1-17\nPsalm 19\n1 Corinthians 1:18-25\nJohn 2:13-22\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=27
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270307
+DTEND:20270308
+DTSTAMP:20260227T193753Z
+UID:177222107398@lectionary.library.vanderbilt.edu
+SUMMARY:Fourth Sunday in Lent (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=28
+DESCRIPTION:Numbers 21:4-9\nPsalm 107:1-3, 17-22\nEphesians 2:1-10\nJohn 3:14-21\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=28
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270314
+DTEND:20270315
+DTSTAMP:20260227T193753Z
+UID:177222107399@lectionary.library.vanderbilt.edu
+SUMMARY:Fifth Sunday in Lent (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=29
+DESCRIPTION:Jeremiah 31:31-34\nPsalm 51:1-12 or Psalm 119:9-16\nHebrews 5:5-10\nJohn 12:20-33\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=29
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270321
+DTEND:20270322
+DTSTAMP:20260227T193753Z
+UID:1772221073100@lectionary.library.vanderbilt.edu
+SUMMARY:Liturgy of the Palms (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=33
+DESCRIPTION:Psalm 118:1-2, 19-29\nMark 11:1-11 or John 12:12-16\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=33
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270321
+DTEND:20270322
+DTSTAMP:20260227T193753Z
+UID:1772221073101@lectionary.library.vanderbilt.edu
+SUMMARY:Liturgy of the Passion (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=34
+DESCRIPTION:Isaiah 50:4-9a\nPsalm 31:9-16\nPhilippians 2:5-11\nMark 14:1-15:47 or Mark 15:1-39, (40-47)\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=l&d=34
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270322
+DTEND:20270323
+DTSTAMP:20260227T193753Z
+UID:1772221073102@lectionary.library.vanderbilt.edu
+SUMMARY:Monday of Holy Week (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=h&d=35
+DESCRIPTION:Isaiah 42:1-9\nPsalm 36:5-11\nHebrews 9:11-15\nJohn 12:1-11\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=h&d=35
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270323
+DTEND:20270324
+DTSTAMP:20260227T193753Z
+UID:1772221073103@lectionary.library.vanderbilt.edu
+SUMMARY:Tuesday of Holy Week (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=h&d=36
+DESCRIPTION:Isaiah 49:1-7\nPsalm 71:1-14\n1 Corinthians 1:18-31\nJohn 12:20-36\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=h&d=36
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270324
+DTEND:20270325
+DTSTAMP:20260227T193753Z
+UID:1772221073104@lectionary.library.vanderbilt.edu
+SUMMARY:Wednesday of Holy Week (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=h&d=37
+DESCRIPTION:Isaiah 50:4-9a\nPsalm 70\nHebrews 12:1-3\nJohn 13:21-32\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=h&d=37
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270325
+DTEND:20270326
+DTSTAMP:20260227T193753Z
+UID:1772221073105@lectionary.library.vanderbilt.edu
+SUMMARY:Maundy Thursday (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=h&d=38
+DESCRIPTION:Exodus 12:1-4, (5-10), 11-14\nPsalm 116:1-2, 12-19\n1 Corinthians 11:23-26\nJohn 13:1-17, 31b-35\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=h&d=38
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270325
+DTEND:20270326
+DTSTAMP:20260227T193753Z
+UID:1772221073106@lectionary.library.vanderbilt.edu
+SUMMARY:Annunciation of the Lord (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=h&d=30
+DESCRIPTION:Isaiah 7:10-14\nPsalm 45 or Psalm 40:5-10\nHebrews 10:4-10\nLuke 1:26-38\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=h&d=30
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270326
+DTEND:20270327
+DTSTAMP:20260227T193753Z
+UID:1772221073107@lectionary.library.vanderbilt.edu
+SUMMARY:Good Friday (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=h&d=39
+DESCRIPTION:Isaiah 52:13-53:12\nPsalm 22\nHebrews 10:16-25 or Hebrews 4:14-16; 5:7-9\nJohn 18:1-19:42\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=h&d=39
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270327
+DTEND:20270328
+DTSTAMP:20260227T193753Z
+UID:1772221073108@lectionary.library.vanderbilt.edu
+SUMMARY:Holy Saturday (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=h&d=40
+DESCRIPTION:Job 14:1-14 or Lamentations 3:1-9, 19-24\nPsalm 31:1-4, 15-16\n1 Peter 4:1-8\nMatthew 27:57-66 or John 19:38-42\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=h&d=40
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270327
+DTEND:20270328
+DTSTAMP:20260227T193753Z
+UID:1772221073109@lectionary.library.vanderbilt.edu
+SUMMARY:Easter Vigil (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=41
+DESCRIPTION:See the Easter Vigil page for full list of readings: https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=41
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270328
+DTEND:20270329
+DTSTAMP:20260227T193753Z
+UID:1772221073110@lectionary.library.vanderbilt.edu
+SUMMARY:Resurrection of the Lord (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=42
+DESCRIPTION:* Acts 10:34-43 or Isaiah 25:6-9\nPsalm 118:1-2, 14-24\n1 Corinthians 15:1-11 or Acts 10:34-43\nJohn 20:1-18 or Mark 16:1-8\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=42
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270328
+DTEND:20270329
+DTSTAMP:20260227T193753Z
+UID:1772221073111@lectionary.library.vanderbilt.edu
+SUMMARY:Easter Evening (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=43
+DESCRIPTION:* Isaiah 25:6-9\nPsalm 114\n1 Corinthians 5:6b-8\nLuke 24:13-49\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=43
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270404
+DTEND:20270405
+DTSTAMP:20260227T193753Z
+UID:1772221073112@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday of Easter (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=44
+DESCRIPTION:* Acts 4:32-35\nPsalm 133\n1 John 1:1-2:2\nJohn 20:19-31\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=44
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270411
+DTEND:20270412
+DTSTAMP:20260227T193753Z
+UID:1772221073113@lectionary.library.vanderbilt.edu
+SUMMARY:Third Sunday of Easter (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=45
+DESCRIPTION:* Acts 3:12-19\nPsalm 4\n1 John 3:1-7\nLuke 24:36b-48\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=45
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270418
+DTEND:20270419
+DTSTAMP:20260227T193753Z
+UID:1772221073114@lectionary.library.vanderbilt.edu
+SUMMARY:Fourth Sunday of Easter (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=46
+DESCRIPTION:* Acts 4:5-12\nPsalm 23\n1 John 3:16-24\nJohn 10:11-18\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=46
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270425
+DTEND:20270426
+DTSTAMP:20260227T193753Z
+UID:1772221073115@lectionary.library.vanderbilt.edu
+SUMMARY:Fifth Sunday of Easter (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=47
+DESCRIPTION:* Acts 8:26-40\nPsalm 22:25-31\n1 John 4:7-21\nJohn 15:1-8\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=47
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270502
+DTEND:20270503
+DTSTAMP:20260227T193753Z
+UID:1772221073116@lectionary.library.vanderbilt.edu
+SUMMARY:Sixth Sunday of Easter (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=48
+DESCRIPTION:* Acts 10:44-48\nPsalm 98\n1 John 5:1-6\nJohn 15:9-17\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=48
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270506
+DTEND:20270507
+DTSTAMP:20260227T193753Z
+UID:1772221073117@lectionary.library.vanderbilt.edu
+SUMMARY:Ascension of the Lord (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=49
+DESCRIPTION:* Acts 1:1-11\nPsalm 47 or Psalm 93\nEphesians 1:15-23\nLuke 24:44-53\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=49
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270509
+DTEND:20270510
+DTSTAMP:20260227T193753Z
+UID:1772221073118@lectionary.library.vanderbilt.edu
+SUMMARY:Seventh Sunday of Easter (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=50
+DESCRIPTION:* Acts 1:15-17, 21-26\nPsalm 1\n1 John 5:9-13\nJohn 17:6-19\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=50
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270516
+DTEND:20270517
+DTSTAMP:20260227T193753Z
+UID:1772221073119@lectionary.library.vanderbilt.edu
+SUMMARY:Day of Pentecost (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=51
+DESCRIPTION:* Acts 2:1-21 or Ezekiel 37:1-14\nPsalm 104:24-34, 35b\nRomans 8:22-27 or Acts 2:1-21\nJohn 15:26-27; 16:4b-15\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=s&d=51
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270523
+DTEND:20270524
+DTSTAMP:20260227T193753Z
+UID:1772221073120@lectionary.library.vanderbilt.edu
+SUMMARY:Trinity Sunday (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=52
+DESCRIPTION:Isaiah 6:1-8 and  Psalm 29\nRomans 8:12-17\nJohn 3:1-17\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=52
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270530
+DTEND:20270531
+DTSTAMP:20260227T193753Z
+UID:1772221073121@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 4 (9) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=58
+DESCRIPTION:1 Samuel 3:1-10, (11-20) and  Psalm 139:1-6, 13-18\nDeuteronomy 5:12-15 and  Psalm 81:1-10\n2 Corinthians 4:5-12\nMark 2:23-3:6\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=58
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270531
+DTEND:20270601
+DTSTAMP:20260227T193753Z
+UID:1772221073122@lectionary.library.vanderbilt.edu
+SUMMARY:Visitation of Mary to Elizabeth (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=56
+DESCRIPTION:1 Samuel 2:1-10 and  Psalm 113\nRomans 12:9-16b\nLuke 1:39-57\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=56
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270606
+DTEND:20270607
+DTSTAMP:20260227T193753Z
+UID:1772221073123@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 5 (10) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=59
+DESCRIPTION:1 Samuel 8:4-11, (12-15), 16-20, (11:14-15) and  Psalm 138\nGenesis 3:8-15 and  Psalm 130\n2 Corinthians 4:13-5:1\nMark 3:20-35\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=59
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270613
+DTEND:20270614
+DTSTAMP:20260227T193753Z
+UID:1772221073124@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 6 (11) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=60
+DESCRIPTION:1 Samuel 15:34 – 16:13 and  Psalm 20\nEzekiel 17:22-24 and  Psalm 92:1-4, 12-15\n2 Corinthians 5:6-10, (11-13), 14-17\nMark 4:26-34\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=60
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270620
+DTEND:20270621
+DTSTAMP:20260227T193753Z
+UID:1772221073125@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 7 (12) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=61
+DESCRIPTION:1 Samuel 17:(1a, 4-11, 19-23), 32-49 and  Psalm 9:9-20 or 1 Samuel 17:57-18:5, 18:10-16 and  Psalm 133\nJob 38:1-11 and  Psalm 107:1-3, 23-32\n2 Corinthians 6:1-13\nMark 4:35-41\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=61
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270627
+DTEND:20270628
+DTSTAMP:20260227T193753Z
+UID:1772221073126@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 8 (13) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=62
+DESCRIPTION:2 Samuel 1:1, 17-27 and  Psalm 130\nWisdom of Solomon 1:13-15, 2:23-24 or Lamentations 3:22-33 and  Psalm 30\n2 Corinthians 8:7-15\nMark 5:21-43\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=62
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270704
+DTEND:20270705
+DTSTAMP:20260227T193753Z
+UID:1772221073127@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 9 (14) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=63
+DESCRIPTION:2 Samuel 5:1-5, 9-10 and  Psalm 48\nEzekiel 2:1-5 and  Psalm 123\n2 Corinthians 12:2-10\nMark 6:1-13\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=63
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270711
+DTEND:20270712
+DTSTAMP:20260227T193753Z
+UID:1772221073128@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 10 (15) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=64
+DESCRIPTION:2 Samuel 6:1-5, 12b-19 and  Psalm 24\nAmos 7:7-15 and  Psalm 85:8-13\nEphesians 1:3-14\nMark 6:14-29\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=64
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270718
+DTEND:20270719
+DTSTAMP:20260227T193753Z
+UID:1772221073129@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 11 (16) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=65
+DESCRIPTION:2 Samuel 7:1-14a and  Psalm 89:20-37\nJeremiah 23:1-6 and  Psalm 23\nEphesians 2:11-22\nMark 6:30-34, 53-56\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=65
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270725
+DTEND:20270726
+DTSTAMP:20260227T193753Z
+UID:1772221073130@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 12 (17) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=66
+DESCRIPTION:2 Samuel 11:1-15 and  Psalm 14\n2 Kings 4:42-44 and  Psalm 145:10-18\nEphesians 3:14-21\nJohn 6:1-21\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=66
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270801
+DTEND:20270802
+DTSTAMP:20260227T193753Z
+UID:1772221073131@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 13 (18) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=67
+DESCRIPTION:2 Samuel 11:26 – 12:13a and  Psalm 51:1-12\nExodus 16:2-4, 9-15 and  Psalm 78:23-29\nEphesians 4:1-16\nJohn 6:24-35\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=67
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270808
+DTEND:20270809
+DTSTAMP:20260227T193753Z
+UID:1772221073132@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 14 (19) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=68
+DESCRIPTION:2 Samuel 18:5-9, 15, 31-33 and  Psalm 130\n1 Kings 19:4-8 and  Psalm 34:1-8\nEphesians 4:25-5:2\nJohn 6:35, 41-51\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=68
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270815
+DTEND:20270816
+DTSTAMP:20260227T193753Z
+UID:1772221073133@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 15 (20) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=69
+DESCRIPTION:1 Kings 2:10-12\n3:3-14 and  Psalm 111\nProverbs 9:1-6 and  Psalm 34:9-14\nEphesians 5:15-20\nJohn 6:51-58\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=69
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270822
+DTEND:20270823
+DTSTAMP:20260227T193753Z
+UID:1772221073134@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 16 (21) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=70
+DESCRIPTION:1 Kings 8:(1,6,10-11), 22-30, 41-43 and  Psalm 84\nJoshua 24:1-2a, 14-18 and  Psalm 34:15-22\nEphesians 6:10-20\nJohn 6:56-69\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=70
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270829
+DTEND:20270830
+DTSTAMP:20260227T193753Z
+UID:1772221073135@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 17 (22) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=71
+DESCRIPTION:Song of Solomon 2:8-13 and  Psalm 45:1-2, 6-9\nDeuteronomy 4:1-2, 6-9 and  Psalm 15\nJames 1:17-27\nMark 7:1-8, 14-15, 21-23\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=71
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270905
+DTEND:20270906
+DTSTAMP:20260227T193753Z
+UID:1772221073136@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 18 (23) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=72
+DESCRIPTION:Proverbs 22:1-2, 8-9, 22-23 and  Psalm 125\nIsaiah 35:4-7a and  Psalm 146\nJames 2:1-10, (11-13), 14-17\nMark 7:24-37\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=72
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270912
+DTEND:20270913
+DTSTAMP:20260227T193753Z
+UID:1772221073137@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 19 (24) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=75
+DESCRIPTION:Proverbs 1:20-33 and  Psalm 19\nIsaiah 50:4-9a and  Psalm 116:1-9 or Wisdom of Solomon 7:26 – 8:1\nJames 3:1-12\nMark 8:27-38\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=75
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270914
+DTEND:20270915
+DTSTAMP:20260227T193753Z
+UID:1772221073138@lectionary.library.vanderbilt.edu
+SUMMARY:Holy Cross (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=74
+DESCRIPTION:Numbers 21:4b-9 and  Psalm 98:1-5 or Psalm 78:1-2, 34-38\n1 Corinthians 1:18-24\nJohn 3:13-17\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=74
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270919
+DTEND:20270920
+DTSTAMP:20260227T193753Z
+UID:1772221073139@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 20 (25) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=76
+DESCRIPTION:Proverbs 31:10-31 and  Psalm 1\nWisdom of Solomon 1:16-2:1, 12-22 or Jeremiah 11:18-20 and  Psalm 54\nJames 3:13-4:3, 7-8a\nMark 9:30-37\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=76
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20270926
+DTEND:20270927
+DTSTAMP:20260227T193753Z
+UID:1772221073140@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 21 (26) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=77
+DESCRIPTION:Esther 7:1-6, 9-10\n9:20-22 and  Psalm 124\nNumbers 11:4-6, 10-16, 24-29 and  Psalm 19:7-14\nJames 5:13-20\nMark 9:38-50\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=77
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271003
+DTEND:20271004
+DTSTAMP:20260227T193753Z
+UID:1772221073141@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 22 (27) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=78
+DESCRIPTION:Job 1:1, 2:1-10 and  Psalm 26\nGenesis 2:18-24 and  Psalm 8\nHebrews 1:1-4, 2:5-12\nMark 10:2-16\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=78
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271010
+DTEND:20271011
+DTSTAMP:20260227T193753Z
+UID:1772221073142@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 23 (28) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=79
+DESCRIPTION:Job 23:1-9, 16-17 and  Psalm 22:1-15\nAmos 5:6-7, 10-15 and  Psalm 90:12-17\nHebrews 4:12-16\nMark 10:17-31\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=79
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271011
+DTEND:20271012
+DTSTAMP:20260227T193753Z
+UID:1772221073143@lectionary.library.vanderbilt.edu
+SUMMARY:Canadian Thanksgiving Day (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=89
+DESCRIPTION:Joel 2:21-27 and  Psalm 126\n1 Timothy 2:1-7\nMatthew 6:25-33\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=89
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271017
+DTEND:20271018
+DTSTAMP:20260227T193753Z
+UID:1772221073144@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 24 (29) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=80
+DESCRIPTION:Job 38:1-7, (34-41) and  Psalm 104:1-9, 24, 35c\nIsaiah 53:4-12 and  Psalm 91:9-16\nHebrews 5:1-10\nMark 10:35-45\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=80
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271024
+DTEND:20271025
+DTSTAMP:20260227T193753Z
+UID:1772221073145@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 25 (30) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=81
+DESCRIPTION:Job 42:1-6, 10-17 and  Psalm 34:1-8, (19-22)\nJeremiah 31:7-9 and  Psalm 126\nHebrews 7:23-28\nMark 10:46-52\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=81
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271031
+DTEND:20271101
+DTSTAMP:20260227T193753Z
+UID:1772221073146@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 26 (31) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=82
+DESCRIPTION:Ruth 1:1-18 and  Psalm 146\nDeuteronomy 6:1-9 and  Psalm 119:1-8\nHebrews 9:11-14\nMark 12:28-34\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=82
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271101
+DTEND:20271102
+DTSTAMP:20260227T193753Z
+UID:1772221073147@lectionary.library.vanderbilt.edu
+SUMMARY:All Saints Day (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=83
+DESCRIPTION:Wisdom of Solomon 3:1-9 or Isaiah 25:6-9 and  Psalm 24\nRevelation 21:1-6a\nJohn 11:32-44\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=83
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271107
+DTEND:20271108
+DTSTAMP:20260227T193753Z
+UID:1772221073148@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 27 (32) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=84
+DESCRIPTION:Ruth 3:1-5\n4:13-17 and  Psalm 127\n1 Kings 17:8-16 and  Psalm 146\nHebrews 9:24-28\nMark 12:38-44\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=84
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271114
+DTEND:20271115
+DTSTAMP:20260227T193753Z
+UID:1772221073149@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 28 (33) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=85
+DESCRIPTION:1 Samuel 1:4-20 and  1 Samuel 2:1-10\nDaniel 12:1-3 and  Psalm 16\nHebrews 10:11-14, (15-18), 19-25\nMark 13:1-8\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=85
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271121
+DTEND:20271122
+DTSTAMP:20260227T193753Z
+UID:1772221073150@lectionary.library.vanderbilt.edu
+SUMMARY:Reign of Christ - Proper 29 (34) (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=86
+DESCRIPTION:2 Samuel 23:1-7 and  Psalm 132:1-12, (13-18)\nDaniel 7:9-10, 13-14 and  Psalm 93\nRevelation 1:4b-8\nJohn 18:33-37\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=86
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271125
+DTEND:20271126
+DTSTAMP:20260227T193753Z
+UID:1772221073151@lectionary.library.vanderbilt.edu
+SUMMARY:Thanksgiving Day (Year B)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=87
+DESCRIPTION:Joel 2:21-27 and  Psalm 126\n1 Timothy 2:1-7\nMatthew 6:25-33\nhttps://lectionary.library.vanderbilt.edu/texts/?y=18921&z=p&d=87
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271128
+DTEND:20271129
+DTSTAMP:20260227T193753Z
+UID:1772221073152@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday of Advent (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=a&d=1
+DESCRIPTION:Jeremiah 33:14-16\nPsalm 25:1-10\n1 Thessalonians 3:9-13\nLuke 21:25-36\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=a&d=1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271205
+DTEND:20271206
+DTSTAMP:20260227T193753Z
+UID:1772221073153@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday of Advent (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=a&d=2
+DESCRIPTION:Baruch 5:1-9 or Malachi 3:1-4\nLuke 1:68-79\nPhilippians 1:3-11\nLuke 3:1-6\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=a&d=2
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271212
+DTEND:20271213
+DTSTAMP:20260227T193753Z
+UID:1772221073154@lectionary.library.vanderbilt.edu
+SUMMARY:Third Sunday of Advent (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=a&d=3
+DESCRIPTION:Zephaniah 3:14-20\nIsaiah 12:2-6\nPhilippians 4:4-7\nLuke 3:7-18\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=a&d=3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271219
+DTEND:20271220
+DTSTAMP:20260227T193753Z
+UID:1772221073155@lectionary.library.vanderbilt.edu
+SUMMARY:Fourth Sunday of Advent (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=a&d=4
+DESCRIPTION:Micah 5:2-5a\nLuke 1:46b-55 or Psalm 80:1-7\nHebrews 10:5-10\nLuke 1:39-45, (46-55)\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=a&d=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271222
+DTEND:20271223
+DTSTAMP:20260227T193753Z
+UID:1772221073156@lectionary.library.vanderbilt.edu
+SUMMARY:Fourth Sunday of Advent (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=a&d=4
+DESCRIPTION:Luke 1:46b-55, Micah 4:1-5, Ephesians 2:11-22\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=a&d=4
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271223
+DTEND:20271224
+DTSTAMP:20260227T193753Z
+UID:1772221073157@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday of Advent (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=a&d=1
+DESCRIPTION:Luke 1:46b-55, Micah 4:6-8, 2 Peter1:16-21\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=a&d=1
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271224
+DTEND:20271226
+DTSTAMP:20260227T193753Z
+UID:1772221073158@lectionary.library.vanderbilt.edu
+SUMMARY:Nativity of the Lord - Proper I (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=5
+DESCRIPTION:Isaiah 9:2-7\nPsalm 96\nTitus 2:11-14\nLuke 2:1-14, (15-20)\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=5
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271224
+DTEND:20271226
+DTSTAMP:20260227T193753Z
+UID:1772221073159@lectionary.library.vanderbilt.edu
+SUMMARY:Nativity of the Lord - Proper II (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=6
+DESCRIPTION:Isaiah 62:6-12\nPsalm 97\nTitus 3:4-7\nLuke 2:(1-7), 8-20\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=6
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271224
+DTEND:20271226
+DTSTAMP:20260227T193753Z
+UID:1772221073160@lectionary.library.vanderbilt.edu
+SUMMARY:Nativity of the Lord - Proper III (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=7
+DESCRIPTION:Isaiah 52:7-10\nPsalm 98\nHebrews 1:1-4, (5-12)\nJohn 1:1-14\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=7
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271226
+DTEND:20271227
+DTSTAMP:20260227T193753Z
+UID:1772221073161@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday after Christmas Day (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=8
+DESCRIPTION:1 Samuel 2:18-20, 26\nPsalm 148\nColossians 3:12-17\nLuke 2:41-52\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=8
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271227
+DTEND:20271228
+DTSTAMP:20260227T193753Z
+UID:1772221073162@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday after Christmas Day (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=
+DESCRIPTION:Psalm 148, Proverbs 8:32-36, John 21:19b-24\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271228
+DTEND:20271229
+DTSTAMP:20260227T193753Z
+UID:1772221073163@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday after Christmas Day (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=8
+DESCRIPTION:Psalm 148, Isaiah 54:1-13, Revelation 21:1-7\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=8
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271229
+DTEND:20271230
+DTSTAMP:20260227T193753Z
+UID:1772221073164@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday after Christmas Day (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=8
+DESCRIPTION:Psalm 147:12-20, 1 Chronicles 28:1-10, 1 Corinthians 3:10-17\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=8
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271230
+DTEND:20271231
+DTSTAMP:20260227T193753Z
+UID:1772221073165@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday after Christmas Day (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=8
+DESCRIPTION:Psalm 147:12-20, 2 Chronicales 1:7-13, Mark 13:32-37\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=8
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20271231
+DTEND:20280101
+DTSTAMP:20260227T193753Z
+UID:1772221073166@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday after Christmas Day (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=8
+DESCRIPTION:Psalm 147:12-20, 1 Kings 3:5-14, John 8:12-19\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=8
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280101
+DTEND:20280102
+DTSTAMP:20260227T193753Z
+UID:1772221073167@lectionary.library.vanderbilt.edu
+SUMMARY:Holy Name of Jesus (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=9
+DESCRIPTION:Numbers 6:22-27\nPsalm 8\nGalatians 4:4-7 or Philippians 2:5-11\nLuke 2:15-21\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=9
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280101
+DTEND:20280102
+DTSTAMP:20260227T193753Z
+UID:1772221073168@lectionary.library.vanderbilt.edu
+SUMMARY:New Year's Day (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=10
+DESCRIPTION:Ecclesiastes 3:1-13\nPsalm 8\nRevelation 21:1-6a\nMatthew 25:31-46\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280102
+DTEND:20280103
+DTSTAMP:20260227T193753Z
+UID:1772221073169@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday after Christmas Day (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=11
+DESCRIPTION:Jeremiah 31:7-14 or Sirach 24:1-12\nPsalm 147:12-20 or Wisdom of Solomon 10:15-21\nEphesians 1:3-14\nJohn 1:(1-9), 10-18\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280105
+DTEND:20280106
+DTSTAMP:20260227T193753Z
+UID:1772221073170@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday after Christmas Day (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=11
+DESCRIPTION:Psalm 72, Jeremiah 31:7-14, John 1:(1-9) 10-18\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=c&d=11
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280106
+DTEND:20280107
+DTSTAMP:20260227T193753Z
+UID:1772221073171@lectionary.library.vanderbilt.edu
+SUMMARY:Epiphany of the Lord (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=12
+DESCRIPTION:Isaiah 60:1-6\nPsalm 72:1-7, 10-14\nEphesians 3:1-12\nMatthew 2:1-12\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=12
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280109
+DTEND:20280110
+DTSTAMP:20260227T193753Z
+UID:1772221073172@lectionary.library.vanderbilt.edu
+SUMMARY:Baptism of the Lord (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=13
+DESCRIPTION:Isaiah 43:1-7\nPsalm 29\nActs 8:14-17\nLuke 3:15-17, 21-22\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=13
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280116
+DTEND:20280117
+DTSTAMP:20260227T193753Z
+UID:1772221073173@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday after the Epiphany (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=14
+DESCRIPTION:Isaiah 62:1-5\nPsalm 36:5-10\n1 Corinthians 12:1-11\nJohn 2:1-11\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=14
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280123
+DTEND:20280124
+DTSTAMP:20260227T193753Z
+UID:1772221073174@lectionary.library.vanderbilt.edu
+SUMMARY:Third Sunday after the Epiphany (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=15
+DESCRIPTION:Nehemiah 8:1-3, 5-6, 8-10\nPsalm 19\n1 Corinthians 12:12-31a\nLuke 4:14-21\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=15
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280130
+DTEND:20280131
+DTSTAMP:20260227T193753Z
+UID:1772221073175@lectionary.library.vanderbilt.edu
+SUMMARY:Fourth Sunday after the Epiphany (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=16
+DESCRIPTION:Jeremiah 1:4-10\nPsalm 71:1-6\n1 Corinthians 13:1-13\nLuke 4:21-30\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=16
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280202
+DTEND:20280203
+DTSTAMP:20260227T193753Z
+UID:1772221073176@lectionary.library.vanderbilt.edu
+SUMMARY:Presentation of the Lord (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=17
+DESCRIPTION:Malachi 3:1-4\nPsalm 84 or Psalm 24:7-10\nHebrews 2:14-18\nLuke 2:22-40\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=17
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280206
+DTEND:20280207
+DTSTAMP:20260227T193753Z
+UID:1772221073177@lectionary.library.vanderbilt.edu
+SUMMARY:Fifth Sunday after the Epiphany (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=18
+DESCRIPTION:Isaiah 6:1-8, (9-13)\nPsalm 138\n1 Corinthians 15:1-11\nLuke 5:1-11\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=18
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280213
+DTEND:20280214
+DTSTAMP:20260227T193753Z
+UID:1772221073178@lectionary.library.vanderbilt.edu
+SUMMARY:Sixth Sunday after the Epiphany (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=19
+DESCRIPTION:Jeremiah 17:5-10\nPsalm 1\n1 Corinthians 15:12-20\nLuke 6:17-26\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=19
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280220
+DTEND:20280221
+DTSTAMP:20260227T193753Z
+UID:1772221073179@lectionary.library.vanderbilt.edu
+SUMMARY:Seventh Sunday after the Epiphany (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=20
+DESCRIPTION:Genesis 45:3-11, 15\nPsalm 37:1-11, 39-40\n1 Corinthians 15:35-38, 42-50\nLuke 6:27-38\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=20
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280227
+DTEND:20280228
+DTSTAMP:20260227T193753Z
+UID:1772221073180@lectionary.library.vanderbilt.edu
+SUMMARY:Transfiguration Sunday (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=23
+DESCRIPTION:Exodus 34:29-35\nPsalm 99\n2 Corinthians 3:12-4:2\nLuke 9:28-36, (37-43a)\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=e&d=23
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280301
+DTEND:20280302
+DTSTAMP:20260227T193753Z
+UID:1772221073181@lectionary.library.vanderbilt.edu
+SUMMARY:Ash Wednesday (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=24
+DESCRIPTION:Joel 2:1-2, 12-17 or Isaiah 58:1-12\nPsalm 51:1-17\n2 Corinthians 5:20b-6:10\nMatthew 6:1-6, 16-21\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=24
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280305
+DTEND:20280306
+DTSTAMP:20260227T193753Z
+UID:1772221073182@lectionary.library.vanderbilt.edu
+SUMMARY:First Sunday in Lent (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=25
+DESCRIPTION:Deuteronomy 26:1-11\nPsalm 91:1-2, 9-16\nRomans 10:8b-13\nLuke 4:1-13\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=25
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280312
+DTEND:20280313
+DTSTAMP:20260227T193753Z
+UID:1772221073183@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday in Lent (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=26
+DESCRIPTION:Genesis 15:1-12, 17-18\nPsalm 27\nPhilippians 3:17-4:1\nLuke 13:31-35 or Luke 9:28-36, (37-43a)\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=26
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280319
+DTEND:20280320
+DTSTAMP:20260227T193753Z
+UID:1772221073184@lectionary.library.vanderbilt.edu
+SUMMARY:Third Sunday in Lent (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=27
+DESCRIPTION:Isaiah 55:1-9\nPsalm 63:1-8\n1 Corinthians 10:1-13\nLuke 13:1-9\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=27
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280321
+DTEND:20280322
+DTSTAMP:20260227T193753Z
+UID:1772221073185@lectionary.library.vanderbilt.edu
+SUMMARY:Third Sunday in Lent (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=27
+DESCRIPTION:Psalm 39\nEzekiel 17:1-10\nRomans 2:12-16\nPsalm 39; Ezekiel 17:1-10; Romans 2:12-16\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=27
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280325
+DTEND:20280326
+DTSTAMP:20260227T193753Z
+UID:1772221073186@lectionary.library.vanderbilt.edu
+SUMMARY:Annunciation of the Lord (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=32
+DESCRIPTION:Isaiah 7:10-14\nPsalm 45 or Psalm 40:5-10\nHebrews 10:4-10\nLuke 1:26-38\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=32
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280326
+DTEND:20280327
+DTSTAMP:20260227T193753Z
+UID:1772221073187@lectionary.library.vanderbilt.edu
+SUMMARY:Fourth Sunday in Lent (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=28
+DESCRIPTION:Joshua 5:9-12\nPsalm 32\n2 Corinthians 5:16-21\nLuke 15:1-3, 11b-32\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=28
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280402
+DTEND:20280403
+DTSTAMP:20260227T193753Z
+UID:1772221073188@lectionary.library.vanderbilt.edu
+SUMMARY:Fifth Sunday in Lent (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=29
+DESCRIPTION:Isaiah 43:16-21\nPsalm 126\nPhilippians 3:4b-14\nJohn 12:1-8\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=29
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280409
+DTEND:20280410
+DTSTAMP:20260227T193753Z
+UID:1772221073189@lectionary.library.vanderbilt.edu
+SUMMARY:Liturgy of the Palms (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=33
+DESCRIPTION:Psalm 118:1-2, 19-29\nLuke 19:28-40\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=33
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280409
+DTEND:20280410
+DTSTAMP:20260227T193753Z
+UID:1772221073190@lectionary.library.vanderbilt.edu
+SUMMARY:Liturgy of the Passion (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=34
+DESCRIPTION:Isaiah 50:4-9a\nPsalm 31:9-16\nPhilippians 2:5-11\nLuke 22:14-23:56 or Luke 23:1-49\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=l&d=34
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280410
+DTEND:20280411
+DTSTAMP:20260227T193753Z
+UID:1772221073191@lectionary.library.vanderbilt.edu
+SUMMARY:Monday of Holy Week (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=h&d=35
+DESCRIPTION:Isaiah 42:1-9\nPsalm 36:5-11\nHebrews 9:11-15\nJohn 12:1-11\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=h&d=35
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280411
+DTEND:20280412
+DTSTAMP:20260227T193753Z
+UID:1772221073192@lectionary.library.vanderbilt.edu
+SUMMARY:Tuesday of Holy Week (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=h&d=36
+DESCRIPTION:Isaiah 49:1-7\nPsalm 71:1-14\n1 Corinthians 1:18-31\nJohn 12:20-36\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=h&d=36
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280412
+DTEND:20280413
+DTSTAMP:20260227T193753Z
+UID:1772221073193@lectionary.library.vanderbilt.edu
+SUMMARY:Wednesday of Holy Week (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=h&d=37
+DESCRIPTION:Isaiah 50:4-9a\nPsalm 70\nHebrews 12:1-3\nJohn 13:21-32\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=h&d=37
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280413
+DTEND:20280414
+DTSTAMP:20260227T193753Z
+UID:1772221073194@lectionary.library.vanderbilt.edu
+SUMMARY:Maundy Thursday (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=h&d=38
+DESCRIPTION:Exodus 12:1-4, (5-10), 11-14\nPsalm 116:1-2, 12-19\n1 Corinthians 11:23-26\nJohn 13:1-17, 31b-35\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=h&d=38
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280414
+DTEND:20280415
+DTSTAMP:20260227T193753Z
+UID:1772221073195@lectionary.library.vanderbilt.edu
+SUMMARY:Good Friday (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=h&d=39
+DESCRIPTION:Isaiah 52:13-53:12\nPsalm 22\nHebrews 10:16-25 or Hebrews 4:14-16; 5:7-9\nJohn 18:1-19:42\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=h&d=39
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280415
+DTEND:20280416
+DTSTAMP:20260227T193753Z
+UID:1772221073196@lectionary.library.vanderbilt.edu
+SUMMARY:Holy Saturday (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=h&d=40
+DESCRIPTION:Job 14:1-14 or Lamentations 3:1-9, 19-24\nPsalm 31:1-4, 15-16\n1 Peter 4:1-8\nMatthew 27:57-66 or John 19:38-42\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=h&d=40
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280416
+DTEND:20280417
+DTSTAMP:20260227T193753Z
+UID:1772221073197@lectionary.library.vanderbilt.edu
+SUMMARY:Easter Vigil (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=41
+DESCRIPTION:See the Easter Vigil page for full list of readings: https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=41
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280416
+DTEND:20280417
+DTSTAMP:20260227T193753Z
+UID:1772221073198@lectionary.library.vanderbilt.edu
+SUMMARY:Resurrection of the Lord (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=42
+DESCRIPTION:* Acts 10:34-43 or Isaiah 65:17-25\nPsalm 118:1-2, 14-24\n1 Corinthians 15:19-26 or Acts 10:34-43\nJohn 20:1-18 or Luke 24:1-12\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=42
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280416
+DTEND:20280417
+DTSTAMP:20260227T193753Z
+UID:1772221073199@lectionary.library.vanderbilt.edu
+SUMMARY:Easter Evening (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=43
+DESCRIPTION:* Isaiah 25:6-9\nPsalm 114\n1 Corinthians 5:6b-8\nLuke 24:13-49\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=43
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280423
+DTEND:20280424
+DTSTAMP:20260227T193753Z
+UID:1772221073200@lectionary.library.vanderbilt.edu
+SUMMARY:Second Sunday of Easter (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=44
+DESCRIPTION:* Acts 5:27-32\nPsalm 118:14-29 or Psalm 150\nRevelation 1:4-8\nJohn 20:19-31\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=44
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280430
+DTEND:20280501
+DTSTAMP:20260227T193753Z
+UID:1772221073201@lectionary.library.vanderbilt.edu
+SUMMARY:Third Sunday of Easter (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=45
+DESCRIPTION:* Acts 9:1-6, (7-20)\nPsalm 30\nRevelation 5:11-14\nJohn 21:1-19\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=45
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280507
+DTEND:20280508
+DTSTAMP:20260227T193753Z
+UID:1772221073202@lectionary.library.vanderbilt.edu
+SUMMARY:Fourth Sunday of Easter (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=46
+DESCRIPTION:* Acts 9:36-43\nPsalm 23\nRevelation 7:9-17\nJohn 10:22-30\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=46
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280514
+DTEND:20280515
+DTSTAMP:20260227T193753Z
+UID:1772221073203@lectionary.library.vanderbilt.edu
+SUMMARY:Fifth Sunday of Easter (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=47
+DESCRIPTION:* Acts 11:1-18\nPsalm 148\nRevelation 21:1-6\nJohn 13:31-35\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=47
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280521
+DTEND:20280522
+DTSTAMP:20260227T193753Z
+UID:1772221073204@lectionary.library.vanderbilt.edu
+SUMMARY:Sixth Sunday of Easter (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=48
+DESCRIPTION:* Acts 16:9-15\nPsalm 67\nRevelation 21:10, 22-22:5\nJohn 14:23-29 or John 5:1-9\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=48
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280525
+DTEND:20280526
+DTSTAMP:20260227T193753Z
+UID:1772221073205@lectionary.library.vanderbilt.edu
+SUMMARY:Ascension of the Lord (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=49
+DESCRIPTION:* Acts 1:1-11\nPsalm 47 or Psalm 93\nEphesians 1:15-23\nLuke 24:44-53\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=49
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280528
+DTEND:20280529
+DTSTAMP:20260227T193753Z
+UID:1772221073206@lectionary.library.vanderbilt.edu
+SUMMARY:Seventh Sunday of Easter (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=50
+DESCRIPTION:* Acts 16:16-34\nPsalm 97\nRevelation 22:12-14, 16-17, 20-21\nJohn 17:20-26\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=50
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280531
+DTEND:20280601
+DTSTAMP:20260227T193753Z
+UID:1772221073207@lectionary.library.vanderbilt.edu
+SUMMARY:Visitation of Mary to Elizabeth (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=53
+DESCRIPTION:* 1 Samuel 2:1-10\nPsalm 113\nRomans 12:9-16b\nLuke 1:39-57\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=53
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280604
+DTEND:20280605
+DTSTAMP:20260227T193753Z
+UID:1772221073208@lectionary.library.vanderbilt.edu
+SUMMARY:Day of Pentecost (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=51
+DESCRIPTION:* Acts 2:1-21 or Genesis 11:1-9\nPsalm 104:24-34, 35b\nRomans 8:14-17 or Acts 2:1-21\nJohn 14:8-17, (25-27)\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=s&d=51
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280611
+DTEND:20280612
+DTSTAMP:20260227T193753Z
+UID:1772221073209@lectionary.library.vanderbilt.edu
+SUMMARY:Trinity Sunday (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=52
+DESCRIPTION:Proverbs 8:1-4, 22-31 and  Psalm 8\nRomans 5:1-5\nJohn 16:12-15\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=52
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280618
+DTEND:20280619
+DTSTAMP:20260227T193753Z
+UID:1772221073210@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 6 (11) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=60
+DESCRIPTION:1 Kings 21:1-10, (11-14), 15-21a and  Psalm 5:1-8\n2 Samuel 11:26-12:10, 13-15 and  Psalm 32\nGalatians 2:15-21\nLuke 7:36-8:3\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=60
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280625
+DTEND:20280626
+DTSTAMP:20260227T193753Z
+UID:1772221073211@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 7 (12) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=61
+DESCRIPTION:1 Kings 19:1-4, (5-7), 8-15a and  Psalm 42 and 43\nIsaiah 65:1-9 and  Psalm 22:19-28\nGalatians 3:23-29\nLuke 8:26-39\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=61
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280702
+DTEND:20280703
+DTSTAMP:20260227T193753Z
+UID:1772221073212@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 8 (13) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=62
+DESCRIPTION:2 Kings 2:1-2, 6-14 and  Psalm 77:1-2, 11-20\n1 Kings 19:15-16, 19-21 and  Psalm 16\nGalatians 5:1, 13-25\nLuke 9:51-62\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=62
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280709
+DTEND:20280710
+DTSTAMP:20260227T193753Z
+UID:1772221073213@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 9 (14) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=63
+DESCRIPTION:2 Kings 5:1-14 and  Psalm 30\nIsaiah 66:10-14 and  Psalm 66:1-9\nGalatians 6:(1-6), 7-16\nLuke 10:1-11, 16-20\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=63
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280716
+DTEND:20280717
+DTSTAMP:20260227T193753Z
+UID:1772221073214@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 10 (15) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=64
+DESCRIPTION:Amos 7:7-17 and  Psalm 82\nDeuteronomy 30:9-14 and  Psalm 25:1-10\nColossians 1:1-14\nLuke 10:25-37\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=64
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280723
+DTEND:20280724
+DTSTAMP:20260227T193753Z
+UID:1772221073215@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 11 (16) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=65
+DESCRIPTION:Amos 8:1-12 and  Psalm 52\nGenesis 18:1-10a and  Psalm 15\nColossians 1:15-28\nLuke 10:38-42\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=65
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280730
+DTEND:20280731
+DTSTAMP:20260227T193753Z
+UID:1772221073216@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 12 (17) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=66
+DESCRIPTION:Hosea 1:2-10 and  Psalm 85\nGenesis 18:20-32 and  Psalm 138\nColossians 2:6-15, (16-19)\nLuke 11:1-13\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=66
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280806
+DTEND:20280807
+DTSTAMP:20260227T193753Z
+UID:1772221073217@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 13 (18) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=67
+DESCRIPTION:Hosea 11:1-11 and  Psalm 107:1-9, 43\nEcclesiastes 1:2, 12-14\n2:18-23 and  Psalm 49:1-12\nColossians 3:1-11\nLuke 12:13-21\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=67
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280813
+DTEND:20280814
+DTSTAMP:20260227T193753Z
+UID:1772221073218@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 14 (19) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=68
+DESCRIPTION:Isaiah 1:1, 10-20 and  Psalm 50:1-8, 22-23\nGenesis 15:1-6 and  Psalm 33:12-22\nHebrews 11:1-3, 8-16\nLuke 12:32-40\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=68
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280820
+DTEND:20280821
+DTSTAMP:20260227T193753Z
+UID:1772221073219@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 15 (20) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=69
+DESCRIPTION:Isaiah 5:1-7 and  Psalm 80:1-2, 8-19\nJeremiah 23:23-29 and  Psalm 82\nHebrews 11:29-12:2\nLuke 12:49-56\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=69
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280827
+DTEND:20280828
+DTSTAMP:20260227T193753Z
+UID:1772221073220@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 16 (21) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=70
+DESCRIPTION:Jeremiah 1:4-10 and  Psalm 71:1-6\nIsaiah 58:9b-14 and  Psalm 103:1-8\nHebrews 12:18-29\nLuke 13:10-17\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=70
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280903
+DTEND:20280904
+DTSTAMP:20260227T193753Z
+UID:1772221073221@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 17 (22) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=71
+DESCRIPTION:Jeremiah 2:4-13 and  Psalm 81:1, 10-16\nSirach 10:12-18 or Proverbs 25:6-7 and  Psalm 112\nHebrews 13:1-8, 15-16\nLuke 14:1, 7-14\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=71
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280910
+DTEND:20280911
+DTSTAMP:20260227T193753Z
+UID:1772221073222@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 18 (23) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=72
+DESCRIPTION:Jeremiah 18:1-11 and  Psalm 139:1-6, 13-18\nDeuteronomy 30:15-20 and  Psalm 1\nPhilemon 1:1-21\nLuke 14:25-33\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=72
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280914
+DTEND:20280915
+DTSTAMP:20260227T193753Z
+UID:1772221073223@lectionary.library.vanderbilt.edu
+SUMMARY:Holy Cross (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=73
+DESCRIPTION:Numbers 21:4b-9 and  Psalm 98:1-5 or Psalm 78:1-2, 34-38\n1 Corinthians 1:18-24\nJohn 3:13-17\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=73
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280917
+DTEND:20280918
+DTSTAMP:20260227T193753Z
+UID:1772221073224@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 19 (24) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=75
+DESCRIPTION:Jeremiah 4:11-12, 22-28 and  Psalm 14\nExodus 32:7-14 and  Psalm 51:1-10\n1 Timothy 1:12-17\nLuke 15:1-10\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=75
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20280924
+DTEND:20280925
+DTSTAMP:20260227T193753Z
+UID:1772221073225@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 20 (25) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=76
+DESCRIPTION:Jeremiah 8:18-9:1 and  Psalm 79:1-9\nAmos 8:4-7 and  Psalm 113\n1 Timothy 2:1-7\nLuke 16:1-13\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=76
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20281001
+DTEND:20281002
+DTSTAMP:20260227T193753Z
+UID:1772221073226@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 21 (26) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=77
+DESCRIPTION:Jeremiah 32:1-3a, 6-15 and  Psalm 91:1-6, 14-16\nAmos 6:1a, 4-7 and  Psalm 146\n1 Timothy 6:6-19\nLuke 16:19-31\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=77
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20281008
+DTEND:20281009
+DTSTAMP:20260227T193753Z
+UID:1772221073227@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 22 (27) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=78
+DESCRIPTION:Lamentations 1:1-6\nLamentations 3:19-26 or Psalm 137\nHabakkuk 1:1-4\n2:1-4 and  Psalm 37:1-9\n2 Timothy 1:1-14\nLuke 17:5-10\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=78
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20281009
+DTEND:20281010
+DTSTAMP:20260227T193753Z
+UID:1772221073228@lectionary.library.vanderbilt.edu
+SUMMARY:Canadian Thanksgiving Day (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=90
+DESCRIPTION:Deuteronomy 26:1-11 and  Psalm 100\nPhilippians 4:4-9\nJohn 6:25-35\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=90
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20281015
+DTEND:20281016
+DTSTAMP:20260227T193753Z
+UID:1772221073229@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 23 (28) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=79
+DESCRIPTION:Jeremiah 29:1, 4-7 and  Psalm 66:1-12\n2 Kings 5:1-3, 7-15c and  Psalm 111\n2 Timothy 2:8-15\nLuke 17:11-19\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=79
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20281022
+DTEND:20281023
+DTSTAMP:20260227T193753Z
+UID:1772221073230@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 24 (29) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=80
+DESCRIPTION:Jeremiah 31:27-34 and  Psalm 119:97-104\nGenesis 32:22-31 and  Psalm 121\n2 Timothy 3:14-4:5\nLuke 18:1-8\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=80
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20281029
+DTEND:20281030
+DTSTAMP:20260227T193753Z
+UID:1772221073231@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 25 (30) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=81
+DESCRIPTION:Joel 2:23-32 and  Psalm 65\nSirach 35:12-17 or Jeremiah 14:7-10, 19-22 and  Psalm 84:1-7\n2 Timothy 4:6-8, 16-18\nLuke 18:9-14\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=81
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20281101
+DTEND:20281102
+DTSTAMP:20260227T193753Z
+UID:1772221073232@lectionary.library.vanderbilt.edu
+SUMMARY:All Saints Day (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=83
+DESCRIPTION:Daniel 7:1-3, 15-18 and  Psalm 149\nEphesians 1:11-23\nLuke 6:20-31\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=83
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20281105
+DTEND:20281106
+DTSTAMP:20260227T193753Z
+UID:1772221073233@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 26 (31) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=82
+DESCRIPTION:Habakkuk 1:1-4\n2:1-4 and  Psalm 119:137-144\nIsaiah 1:10-18 and  Psalm 32:1-7\n2 Thessalonians 1:1-4, 11-12\nLuke 19:1-10\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=82
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20281112
+DTEND:20281113
+DTSTAMP:20260227T193753Z
+UID:1772221073234@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 27 (32) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=84
+DESCRIPTION:Haggai 1:15b-2:9 and  Psalm 145:1-5, 17-21 or Psalm 98\nJob 19:23-27a and  Psalm 17:1-9\n2 Thessalonians 2:1-5, 13-17\nLuke 20:27-38\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=84
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20281119
+DTEND:20281120
+DTSTAMP:20260227T193753Z
+UID:1772221073235@lectionary.library.vanderbilt.edu
+SUMMARY:Proper 28 (33) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=85
+DESCRIPTION:Isaiah 65:17-25 and  Isaiah 12\nMalachi 4:1-2a and  Psalm 98\n2 Thessalonians 3:6-13\nLuke 21:5-19\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=85
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20281123
+DTEND:20281124
+DTSTAMP:20260227T193753Z
+UID:1772221073236@lectionary.library.vanderbilt.edu
+SUMMARY:Thanksgiving Day (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=88
+DESCRIPTION:Deuteronomy 26:1-11 and  Psalm 100\nPhilippians 4:4-9\nJohn 6:25-35\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=88
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20281126
+DTEND:20281127
+DTSTAMP:20260227T193753Z
+UID:1772221073237@lectionary.library.vanderbilt.edu
+SUMMARY:Reign of Christ - Proper 29 (34) (Year C)
+URL;VALUE=URI:https://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=86
+DESCRIPTION:Jeremiah 23:1-6 and  Luke 1:68-79\nJeremiah 23:1-6 and  Psalm 46\nColossians 1:11-20\nLuke 23:33-43\nhttps://lectionary.library.vanderbilt.edu/texts/?y=19342&z=p&d=86
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
