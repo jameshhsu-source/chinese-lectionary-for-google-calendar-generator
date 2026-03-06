@@ -53,26 +53,6 @@ summary_map = {
 
     # Pentecost
     "Pentecost Sunday": "Pentecost Sunday",
-    # "Pentecost 1": "First Sunday",
-    # "Pentecost 2": "Second Sunday",
-    # "Pentecost 3": "Third Sunday",
-    # "Pentecost 4": "Fourth Sunday",
-    # "Pentecost 5": "Fifth Sunday",
-    # "Pentecost 6": "Sixth Sunday",
-    # "Pentecost 7": "Seventh Sunday",
-    # "Pentecost 8": "Eighth Sunday",
-    # "Pentecost 9": "Ninth Sunday",
-    # "Pentecost 10": "Tenth Sunday",
-    # "Pentecost 11": "Eleventh Sunday",
-    # "Pentecost 12": "Twelfth Sunday",
-    # "Pentecost 13": "Thirteenth Sunday",
-    # "Pentecost 14": "Fourteenth Sunday",
-    # "Pentecost 15": "Fifteenth Sunday",
-    # "Pentecost 16": "Sixteenth Sunday",
-    # "Pentecost 17": "Seventeenth Sunday",
-    # "Pentecost 18": "Eighteenth Sunday",
-    # "Pentecost 19": "Nineteenth Sunday",
-    # "Pentecost 20": "Twentieth Sunday",
 
     # Ordinary / Proper / Trinity
     "Ordinary 1": "First Sunday",
@@ -217,7 +197,7 @@ season_map = {
     "End Time": "末期"
 }
 
-# === 依據講義新增：節期意義對照表 ===
+# === 依據講義節期意義對照表 ===
 season_meaning_map = {
     "Advent": "將臨期—預備慶祝基督的降生，預備等候基督的再臨。",
     "Christmas": "聖誕期—慶賀基督降生，展望與基督永恆同在。",
@@ -296,7 +276,7 @@ ordinal_map_2 = {
     "twenty-fourth": 24,
     "twenty-fifth": 25,
 }
-# === 新增：阿拉伯數字轉中文數字對照表 ===
+# === 阿拉伯數字轉中文數字對照表 ===
 arabic_to_zh = {
     "1": "一", "2": "二", "3": "三", "4": "四", "5": "五", "6": "六", "7": "七", "8": "八", "9": "九", "10": "十",
     "11": "十一", "12": "十二", "13": "十三", "14": "十四", "15": "十五", "16": "十六", "17": "十七", "18": "十八", "19": "十九", "20": "二十",
@@ -323,7 +303,7 @@ book_map = {
     "James": "雅各書","1 Peter": "彼得前書","2 Peter": "彼得後書","1 John": "約翰一書",
     "2 John": "約翰二書","3 John": "約翰三書","Jude": "猶大書","Revelation": "啟示錄",
     
-    # === 新增：RCL 次經書卷 (Apocrypha) (依據聖公宗標準) ===
+    # === RCL 次經書卷 (Apocrypha) (依據聖公宗標準) ===
     "Tobit": "多比傳",
     "Judith": "猶滴傳",
     "Additions to Esther": "以斯帖補篇",
@@ -743,7 +723,7 @@ for i in range(1, 31):
     hymn_map[("Pentecost", word_key)] = hymns
     hymn_map[("Pentecost", f"Pentecost {i}")] = hymns
     
-# 新增：主顯節延長週數的詩歌捷徑
+# 主顯節延長週數的詩歌捷徑
 hymn_map[("Epiphany", "Sixth Sunday after Epiphany")] = hymn_map.get(("Epiphany", "Sixth Sunday"), [])
 hymn_map[("Epiphany", "Seventh Sunday after Epiphany")] = hymn_map.get(("Epiphany", "Seventh Sunday"), [])
 hymn_map[("Epiphany", "Eighth Sunday after Epiphany")] = hymn_map.get(("Epiphany", "Eighth Sunday"), [])
@@ -754,7 +734,7 @@ fallback_tracker = []
 stats = {
     "yearly_count": defaultdict(int),
     "untranslated": [],     # 標題仍含英文
-    "untranslated_desc": [],  # ★ 新增：用來記錄 Description 裡殘留的英文
+    "untranslated_desc": [],  # ★ 用來記錄 Description 裡殘留的英文
     "no_scripture": [],     # 找不到對應經文
     "no_hymn": []           # 找不到對應詩歌
 }
@@ -901,7 +881,6 @@ def translate_summary(summary: str) -> str:
         summary = re.sub(wrong, right, summary, flags=re.IGNORECASE)
 
     # =====================================================================
-    # ★ 按照您的要求：保護「英文數字帶破折號」不被切開
     # 將 Twenty-first, Twenty-fourth 等數字裡的破折號暫時替換為特殊標記
     # =====================================================================
     summary = re.sub(
@@ -1072,7 +1051,7 @@ def parse_summary(summary_text):
     """
     summary_text = summary_text.strip()
 
-    # === 🌟 新增：Vanderbilt 標題轉接頭 ===
+    # === 🌟 Vanderbilt 標題轉接頭 ===
     # 1. 移除 (Year A), (Year B) 等年份標記
     summary_text = re.sub(r'\s*\(Year [ABC]\)', '', summary_text, flags=re.IGNORECASE)
     # 2. 將 Proper X (Y) 簡化為 Proper X (把後面的括號數字砍掉)
@@ -1207,12 +1186,12 @@ def get_hymn_text(summary: str, date: datetime.date = None) -> str:
     season, sunday, _ = parse_summary(summary)
 
     # === 1. 智慧路由與別名轉換 ===
-    # 修正：將 Proper X 強制導向 Ordinary Time
+    # 將 Proper X 強制導向 Ordinary Time
     if "Proper" in sunday:
         season = "Ordinary Time"
         
-    # 修正：各種特殊節日名稱的別名對應
-    # 🌟 新增：把 Easter Evening 和 Easter Vigil 也導向復活節
+    # 各種特殊節日名稱的別名對應
+    # 🌟 把 Easter Evening 和 Easter Vigil 也導向復活節
     if season == "Easter" and ("Resurrection" in summary or "Easter Day" in summary or "Easter Dawn" in summary or "Easter Evening" in summary or "Easter Vigil" in summary):
         sunday = "Easter Sunday"
     if season == "Christmas" and "Nativity" in summary:
@@ -1223,7 +1202,7 @@ def get_hymn_text(summary: str, date: datetime.date = None) -> str:
         sunday = "Pentecost Sunday"
 
     # =======================================================
-    # 🌟 新增：解決報告中「缺失詩歌」的特殊節日路由！
+    # 🌟 解決報告中「缺失詩歌」的特殊節日路由！
     # 將 RCL 的平日節慶，借用我們已有的合適詩歌清單
     # =======================================================
     s_lower = summary.lower()
@@ -1246,7 +1225,7 @@ def get_hymn_text(summary: str, date: datetime.date = None) -> str:
 
     # === 3. 啟動模糊比對 (Fuzzy Match) ===
     if not hymns:
-        # 修正：將字典的項目依據 map_sunday 的「字串長度」由長到短排序
+        # 將字典的項目依據 map_sunday 的「字串長度」由長到短排序
         # 確保 "Second Sunday" 會比 "Epiphany" 更早被比對到，避免短字串誤攔截！
         sorted_items = sorted(hymn_map.items(), key=lambda x: len(x[0][1] or ""), reverse=True)
         
@@ -1294,139 +1273,6 @@ def determine_cycle(dt) -> str:
     base_year = 2025
     offset = (year - base_year) % 3
     return ["A", "B", "C"][offset]
-
-# def determine_formula(summary: str, dt: date = None) -> str:
-    # s = summary.lower()
-    # if dt and dt.weekday() == 6: # 只有當天是週日才做檢查
-        # # 針對 C 年被吃掉的那兩個主日
-        # if "reformation" in s or "all saints" in s:
-             # # 假設 calculate_easter 可以在此處被呼叫 (或從外部傳入年份)
-             # # 這裡我們現場算一次當年的復活節，用來推算是第幾週
-             # easter = calculate_easter(dt.year)
-             # pentecost = easter + timedelta(days=49)
-             
-             # # 如果這一天在五旬節之後
-             # if dt > pentecost:
-                 # weeks = (dt - pentecost).days // 7
-                 # # 回傳「五旬節公式」取代原本的「固定日期公式」
-                 # # 這樣程式就學會了：這個事件其實是 Pentecost X
-                 # return f"(calculate_easter(year+1) + timedelta(days=49)) + timedelta(weeks={weeks})"
-    # # === 在判斷公式前，先強制修正錯字 ===
-    # if "ephphany" in s:
-        # s = s.replace("ephphany", "epiphany")
-
-    # # --- Christmas ---
-    # if "christmas eve" in s: return "date(year, 12, 24)"
-    # if "christmas day" in s: return "date(year, 12, 25)"
-    
-    # # 聖誕後主日 (Christmas 1, 2...)
-    # # 邏輯：從 12月26日 開始往後找第一個星期日，然後加上 (N-1) 週
-    
-    # # 1. 先嘗試抓數字 (例如 Christmas 1)
-    # match_num = re.search(r"christmas\s+(\d+)", s)
-    # if match_num:
-        # num = int(match_num.group(1))
-        # return f"date(year, 12, 26) + timedelta(days=(6 - date(year, 12, 26).weekday() + 7) % 7) + timedelta(weeks={num-1})"
-    
-    # # 2. 再嘗試抓序數單字 (例如 First Sunday after Christmas)
-    # if "christmas" in s:
-        # for word, num in ordinal_map_2.items():
-            # # 只要包含 christmas 且包含序數詞 (first, second...)
-            # if word in s or str(num) in s:
-                 # return f"date(year, 12, 26) + timedelta(days=(6 - date(year, 12, 26).weekday() + 7) % 7) + timedelta(weeks={num-1})"
-    # # --- Epiphany ---
-    # # 1. 處理主受洗日 (Baptism) 或 顯現後第一主日
-    # if "baptism" in s or ("epiphany" in s and (" 1" in s or "first" in s)):
-        # # 邏輯：1月7日之後的第一個主日
-        # return "date(year+1, 1, 7) + timedelta(days=(6 - date(year+1, 1, 7).weekday() + 7) % 7)"
-
-    # # 2. 處理顯現後其他主日 (Epiphany 2, 3... 或 Fifth Sunday...)
-    # # 先嘗試抓數字 (如 Epiphany 2)
-    # match_num = re.search(r"epiphany\s+(\d+)", s)
-    # if match_num:
-        # num = int(match_num.group(1))
-        # return f"date(year+1, 1, 7) + timedelta(days=(6 - date(year+1, 1, 7).weekday() + 7) % 7) + timedelta(weeks={num-1})"
-
-    # # 再嘗試抓序數單字 (如 Fifth Sunday after Ephphany)
-    # for word, num in ordinal_map_2.items():
-        # # 這裡放寬條件：只要有 epiphany (或錯字 ephphany) 且有序數詞
-        # if ("epiphany" in s or "ephphany" in s) and (word in s or str(num) in s):
-             # # 回傳簡單公式：基準日 + (N-1) 週
-             # return f"date(year+1, 1, 7) + timedelta(days=(6 - date(year+1, 1, 7).weekday() + 7) % 7) + timedelta(weeks={num-1})"
-    # # 登山變像日 (最後主日)
-    # if "transfiguration" in s or "last sunday after epiphany" in s:
-        # return "calculate_easter(year+1) - timedelta(days=49)"
-
-    # # 純主顯節 (1/6 固定) - 必須放在上面含有數字的判斷之後
-    # if "epiphany" in s: return "date(year+1, 1, 6)"
-
-    # # --- Lent ---
-    # if "ash wednesday" in s: return "calculate_easter(year+1) - timedelta(days=46)"
-    
-    # # 預苦期主日基準應為 Easter - 42天 (Lent 1 主日)，而非聖灰日
-    # for word, num in ordinal_map_2.items():
-        # if "lent" in s and (word in s or str(num) in s):
-             # return f"calculate_easter(year+1) - timedelta(days={42 - (num-1)*7})"
-
-    # # --- Holy Week / Easter ---
-    # if "palm" in s or "passion" in s: 
-        # return "calculate_easter(year+1) - timedelta(days=7)"
-    # if "maundy" in s or "holy thursday" in s: 
-        # return "calculate_easter(year+1) - timedelta(days=3)"
-    # if "good friday" in s: return "calculate_easter(year+1) - timedelta(days=2)"
-    # # 復活期其他主日
-    # for word, num in ordinal_map_2.items():
-        # if "easter" in s and (word in s or str(num) in s):
-            # return f"calculate_easter(year+1) + timedelta(weeks={num-1})"
-
-    # # 包含 Dawn 和 Day
-    # if "easter" in s and ("day" in s or "sunday" in s or "dawn" in s or "resurrection" in s) and "2" not in s and "3" not in s: 
-        # return "calculate_easter(year+1)"
-
-    # # --- Pentecost ---
-    # if "ascension" in s: return "calculate_easter(year+1) + timedelta(days=39)"
-    # if "day of pentecost" in s or s.strip() == "pentecost": 
-        # return "calculate_easter(year+1) + timedelta(days=49)"
-    # if "trinity" in s: return "calculate_easter(year+1) + timedelta(days=56)"
-    # # 針對 Proper 的處理
-    # match_proper = re.search(r"proper\s+(\d+)", s)
-    # if match_proper:
-        # proper_num = int(match_proper.group(1))
-        # # Proper 6 約等於 Pentecost 3 (Proper N - 3 = Pentecost N)
-        # # 公式：五旬節(49天) + (Proper數 - 3) 週
-        # offset_weeks = proper_num - 3
-        # if offset_weeks < 1: offset_weeks = 1
-        # return f"(calculate_easter(year+1) + timedelta(days=49)) + timedelta(weeks={offset_weeks})"
-    
-    # # 聖靈降臨後主日 (Pentecost N)
-    # # 1. 優先找「獨立數字」 (\b 代表單字邊界，確保 10 不會被當成 1)
-    # match_num = re.search(r"\b(\d+)\b", s)
-    # if "pentecost" in s and match_num:
-        # num = int(match_num.group(1))
-        # return f"(calculate_easter(year+1) + timedelta(days=49)) + timedelta(weeks={num})"
-
-    # # 2. 沒數字才找單字 (例如 First, Second)
-    # for word, num in ordinal_map_2.items():
-        # if "pentecost" in s and word in s:
-             # return f"(calculate_easter(year+1) + timedelta(days=49)) + timedelta(weeks={num})"
-    # # --- Advent / Others ---
-    # if "reformation" in s: return "date(year+1, 10, 31)"
-    # if "all saints" in s: return "date(year+1, 11, 1)"
-    # if "thanksgiving" in s: return "fourth_thursday_of_november(year+1)"
-    # if "christ the king" in s or "last sunday" in s: 
-        # return "calculate_advent1(year+1) - timedelta(days=7)"
-    # # Last Judgment (末日審判主日) = 倒數第二主日 = 下一個 Advent 往前推 2 週
-    # if "last judgment" in s:
-        # return "calculate_advent1(year+1) - timedelta(days=14)"
-    # # Saints Triumphant (聖徒得勝日) = 倒數第三主日 = 下一個 Advent 往前推 3 週
-    # if "saints triumphant" in s:
-        # return "calculate_advent1(year+1) - timedelta(days=21)"
-
-    # for word, num in ordinal_map_2.items():
-        # if "advent" in s and (word in s or str(num) in s):
-            # return f"calculate_advent1(year) + timedelta(weeks={num-1})"
-    
-    # return ""
 
 def determine_formula(summary: str, dt: date = None) -> str:
     s = summary.lower()
@@ -1521,17 +1367,11 @@ def determine_formula(summary: str, dt: date = None) -> str:
     if "christ the king" in s or "last sunday" in s or "reign of christ" in s: 
         return "calculate_advent1(year+1) - timedelta(days=7)"
 
-    # match_proper = re.search(r"proper\s+(\d+)", s)
-    # if match_proper:
-        # proper_num = int(match_proper.group(1))
-        # offset_weeks = proper_num - 3
-        # if offset_weeks < 1: offset_weeks = 1
-        # return f"(calculate_easter(year+1) + timedelta(days=49)) + timedelta(weeks={offset_weeks})"
     # 針對 Proper 的處理
     match_proper = re.search(r"proper\s+(\d+)", s)
     if match_proper:
         proper_num = int(match_proper.group(1))
-        # 🌟 核心修正：RCL 的 Proper 是向後對齊 Advent 1 的！
+        # 🌟 核心RCL 的 Proper 是向後對齊 Advent 1 的！
         # Proper 29 = Advent 1 往前推 1 週 (30 - 29 = 1)
         return f"calculate_advent1(year+1) - timedelta(weeks={30 - proper_num})"
         
@@ -1648,10 +1488,9 @@ def build_canonical_set_with_formula(cal):
             continue  # 狠下心！把 RCL 混進來的「每日讀經 (Daily Lectionary)」全部踢掉！
 
         # 抓取範圍：從 2025 Advent 1 到 2028 Advent 1 之前
-        # 建議設為 2028-12-02 以確保完整抓完丙年
         if date(2025, 11, 30) <= dtstart <= date(2028, 12, 2):
             
-            # --- [核心修正：正確判定 Cycle] ---
+            # --- [核心正確判定 Cycle] ---
             # 計算該日期所在年份的 Advent 1
             adv1_of_year = calculate_advent1(dtstart.year)
             
@@ -1693,7 +1532,7 @@ def build_canonical_set_with_formula(cal):
             })
             
     # =========================================================================
-    # ★★★ [新增：強制補齊所有缺失的 Proper 與 Epiphany 公式] ★★★
+    # ★★★ [強制補齊所有缺失的 Proper 與 Epiphany 公式] ★★★
     # 解決範本因年份短或被特殊節期佔據，導致 Proper 及長主顯節漏缺的問題
     # =========================================================================
     existing_propers = {"A": set(), "B": set(), "C": set()}
@@ -1714,17 +1553,6 @@ def build_canonical_set_with_formula(cal):
                 existing_epiphanies[e["cycle"]].add(num)
 
     for c in ["A", "B", "C"]:
-        # 補齊 Proper 1 到 29
-        # for p in range(1, 33):  
-            # if p not in existing_propers[c]:
-                # offset_weeks = p - 3
-                # if offset_weeks < 1: offset_weeks = 1
-                # canonical_set.append({
-                    # "name": f"Proper {p}",
-                    # "date": datetime.date(2000, 1, 1), # 給予假日期以防止後續 sort 發生 TypeError
-                    # "cycle": c,
-                    # "formula": f"(calculate_easter(year+1) + timedelta(days=49)) + timedelta(weeks={offset_weeks})"
-                # })
         for p in range(1, 30):  
             if p not in existing_propers[c]:
                 canonical_set.append({
@@ -1746,7 +1574,7 @@ def build_canonical_set_with_formula(cal):
                 })
     # =========================================================================
               
-        # ★ 新增：強制為每一週期補上「基督君王主日」
+        # ★ 強制為每一週期補上「基督君王主日」
         # 公式：下一個 Advent 1 往前推 7 天
         canonical_set.append({
             "name": "Christ the King",
@@ -1754,16 +1582,6 @@ def build_canonical_set_with_formula(cal):
             "cycle": c,
             "formula": "calculate_advent1(year+1) - timedelta(days=7)"
         })
-        # =====================================================================
-        # ★ 實作您的策略 3：強制補上被 RCL 隱藏的 12/25 聖誕節當日！
-        # =====================================================================
-        # canonical_set.append({
-            # "name": "Christmas Day",
-            # "date": datetime.date(2000, 12, 25),
-            # "cycle": c,
-            # "formula": "date(year, 12, 25)"
-        # })
-        # =====================================================================
     cycle_order = {"A": 0, "B": 1, "C": 2}
     canonical_set.sort(key=lambda e: (cycle_order[e["cycle"]], e["date"]))
     return canonical_set
@@ -1807,45 +1625,6 @@ def get_english_lines_in_desc(text):
             
     return lines_with_english
 
-# # === 代表顏色自動判斷函式 ===
-# def get_liturgical_color(season, sunday):
-    # """依據指定的顏色規則，精準判斷代表顏色"""
-    # # 1. 將臨期：藍色
-    # if season == "Advent": 
-        # return "🔵 藍色"
-        
-    # if season == "Christmas": 
-        # return "⚪ 白色"
-        
-    # if season == "Epiphany":
-        # # 主顯日、耶穌受洗主日、登山變像主日 為白色
-        # if sunday in ["Epiphany", "First Sunday", "Transfiguration"]: 
-            # return "⚪ 白色"
-        # return "🟢 綠色" 
-        
-    # # 2. 預苦期與聖週
-    # if season in ["Lent", "Holy Week"]:
-        # # 棕枝主日、主立聖餐日：紅色
-        # if sunday in ["Palm Sunday", "Maundy Thursday"]:
-            # return "🔴 紅色"
-        # # 受難日、聖週六：黑色
-        # if sunday in ["Good Friday", "Holy Saturday"]: 
-            # return "⚫ 黑色"
-        # # 預苦期其他日子：紫色
-        # return "🟣 紫色"
-        
-    # if season == "Easter": 
-        # return "⚪ 白色"
-        
-    # if season in ["Pentecost", "Ordinary Time"]:
-        # # 聖靈降臨主日：紅色
-        # if sunday == "Pentecost Sunday": 
-            # return "🔴 紅色"
-        # if sunday in ["Trinity Sunday", "Christ the King"]: 
-            # return "⚪ 白色"
-        # return "🟢 綠色" 
-        
-    # return ""
 # === 代表顏色自動判斷函式 ===
 def get_liturgical_color(season, sunday):
     """依據指定的顏色規則，精準判斷代表顏色"""
@@ -1901,270 +1680,10 @@ cn_cal = Calendar()
 cn_cal.add('prodid', '-//Chinese Lectionary//mxm.dk//')
 cn_cal.add('version', '2.0')
 
-# # 用來記錄已經處理過的日期
-# seen_dates_original = set()
-
-# # 👇 新增：完美的模板庫
-# perfect_templates = {}
-# daily_events_raw = defaultdict(list)
-# # === 事件處理主流程 ===
-# for component in cal.walk():
-    # if component.name == "VEVENT":
-        # start_date = component.get("dtstart").dt
-        # end_date = component.get("dtend").dt
-        # # 確保 start_date 是 date 格式
-        # if hasattr(start_date, "date"):
-            # check_date = start_date.date()
-        # else:
-            # check_date = start_date
-
-        # if not (START_YEAR <= start_date.year <= END_YEAR):
-            # continue
-        # # 如果這一天已經有事件了，就跳過之後的（例如跳過重複的聖誕夜）
-        # # if check_date in seen_dates_original:
-            # # continue
-        # # seen_dates_original.add(check_date)
-
-        # summary_text = str(component.get("summary"))
-        # # =====================================================================
-        # # 🌟 實作您的策略：過濾 Vanderbilt 混進來的「週間每日讀經」雜訊
-        # # =====================================================================
-        # is_sunday = (check_date.weekday() == 6)
-        # summary_lower = summary_text.lower()
-
-        # # 1. 必殺技：如果是「平日」，但英文原始名字裡竟然有 "Sunday"，絕對是假主日！
-        # # 這會精準秒殺週三的「Fourth Sunday」或週一的「First Sunday after Christmas」
-        # if not is_sunday and "sunday" in summary_lower:
-            # continue
-
-        # # 2. 如果是「平日」且沒有 Sunday，它必須在我們的「合法節日白名單」內
-        # valid_weekdays = [
-            # "nativity", "holy name", "new year", "epiphany", "presentation",
-            # "annunciation", "ash wednesday", "holy week", "maundy", "good friday",
-            # "holy saturday", "easter vigil", "ascension", "visitation", "holy cross",
-            # "all saints", "thanksgiving"
-        # ]
-        # is_valid_weekday = any(kw in summary_lower for kw in valid_weekdays)
-
-        # if not is_sunday and not is_valid_weekday:
-            # continue
-        # # =====================================================================
-
-        # # 🌟 清洗冗餘的 (Year A/B/C)
-        # summary_text = re.sub(r'\s*\(Year\s+[ABC]\)', '', summary_text, flags=re.IGNORECASE)
-        # if "Nativity of the Lord" in summary_text:
-            # continue
-        # desc_text = str(component.get("description", ""))
-        
-        # # 將合法事件存入該日期的陣列中
-        # daily_events_raw[check_date].append({
-            # "summary": summary_text,
-            # "description": desc_text
-        # })
-# # =====================================================================
-# # 🌟 階段二：合併與萃取 (實作您的完美整合邏輯)
-# # =====================================================================
-# # 準備一個新的迴圈來處理每一天的最終結果
-# for check_date, events in daily_events_raw.items():
-    # final_summary = ""
-    # combined_desc_list = []
-    
-    # for e in events:
-        # desc = e["description"]
-        # summary = e["summary"]
-        
-        # # 判斷是否含有經文：利用 Vanderbilt 經文一定有「數字:數字」的特性 (例如 10:34)
-        # # 這能精準避開 Easter Vigil 那種只寫 "See the Easter Vigil page..." 的空包彈
-        # has_scripture = bool(re.search(r'\d+:\d+', desc))
-        
-        # # 如果有經文，或者是這天唯一的事件，就納入處理
-        # if has_scripture or len(events) == 1:
-            # # 1. 抓第一個含有經文的 summary 當作這天的代表標題
-            # if not final_summary:
-                # final_summary = summary
-            
-            # # 2. 整合經文 (如果同一天有多個有效事件，加上原標題作區分，看起來更專業)
-            # if len(events) > 1 and has_scripture:
-                # combined_desc_list.append(f"【{summary}】\n{desc.strip()}")
-            # else:
-                # combined_desc_list.append(desc.strip())
-
-    # # 如果真的全部都沒有經文特徵，就拿第一個墊底防呆
-    # if not final_summary:
-        # final_summary = events[0]["summary"]
-        
-    # # 整合好的最終經文內容 (您後續若需要保留來源的 Description 可用此變數)
-    # combined_description = "\n\n".join(combined_desc_list)
-
-    # # =====================================================================
-    # # 接下來，就把 final_summary 當作這一天的唯一代表，進入原本的翻譯流程！
-    # # =====================================================================
-    # summary_text = final_summary        
-    # start_date = check_date
-    # end_date = start_date + datetime.timedelta(days=1)
-    # cycle_label = get_cycle_label(start_date)
-    # season, sunday, display_summary = parse_summary(summary_text)
-    # hymns = hymn_map.get((season, sunday), [])
-    # subject = translate_text(display_summary, cycle_label, season, sunday)
-    # # 檢查翻譯
-    # if is_english_title(subject):
-        # stats["untranslated"].append(f"{start_date.strftime('%Y%m%d')} | {summary_text} -> {subject}")
-    # #description = str(component.get("description"))
-    # description = combined_description
-    # description = description.replace("–", "-").replace("–", "-").replace("—", "-")
-    # # lines = description.splitlines()
-    
-    # # # === 找到第一個 phrase_map 相關的片語位置 ===
-    # # start_index = 0
-    # # found_match = False  
-    # # for i, line in enumerate(lines):
-        # # for phrase in phrase_map.keys():
-            # # if phrase.lower() in line.lower():
-                # # start_index = i
-                # # found_match = True  
-                # # break
-        # # if found_match:  
-            # # break
-
-    # # # 只保留從第一個片語開始的行
-    # # lines = lines[start_index:]
-    # # merged_lines = []
-    # # i = 0
-    # # while i < len(lines):
-        # # line = lines[i].strip()
-        # # if i + 1 < len(lines) and re.match(r"^\d+$", lines[i+1].strip()):
-            # # merged_lines.append(line + " " + lines[i+1].strip())
-            # # i += 2
-        # # else:
-            # # merged_lines.append(line)
-            # # i += 1
-    # # lines = merged_lines
-    
-    # # # =======================================================
-    # # # 🚀 恢復原本最健康、最乾淨的過濾邏輯
-    # # # =======================================================
-    # # new_lines = []
-    # # skip_mode = False
-
-    # # for line in lines:
-        # # # 0.1 暴力清洗亂碼！
-        # # line = re.sub(r'[–—−\x96\x97\u2013\u2014]', '-', line)
-        # # # --- 略過 Vanderbilt 結尾的網址 ---
-        # # if "http" in line:
-            # # continue
-            
-        # # # --- 翻譯 Vanderbilt 經文裡的 and 與 or ---
-        # # line = re.sub(r'\s+and\s+', ' 與 ', line, flags=re.IGNORECASE)
-        # # line = re.sub(r'\s+or\s+', ' 或 ', line, flags=re.IGNORECASE)
-
-        # # # 1. 碰到祈禱文，開啟跳過模式
-        # # if "Prayer of the Day" in line:
-            # # skip_mode = True
-            # # continue
-        # # if skip_mode:
-            # # continue
-        
-        # # # 2. 略過 Alleluia 等冗長英文金句歡呼
-        # # if "Alleluia" in line or "alleluia" in line.lower():
-            # # continue
-        
-        # # # 3. 略過舊版的標題雜訊規則 (保留你原本的邏輯)
-        # # if re.match(r"^\s*\d+\s+[A-Za-z]", line) and ":" not in line:
-            # # continue
-            
-        # # # 4. 【黑名單】如果這行有括號 (代表是替代經文或註解)，直接踢掉！
-        # # if "(" in line and ")" in line:
-            # # continue
-            
-        # # # 5. 【白名單】判斷這行是否包含「英文字母 + 數字」(代表書卷加章節)
-        # # # 因為空白行已經在第 0 步安全過關了，所以這裡只會殺掉「沒有數字的純文字標題」！
-        # # if not re.search(r'[A-Za-z]+\s+\d+', line):
-            # # continue
-            
-        # # # 6. 如果有標題包含在內，進行翻譯
-        # # if re.search(r"(First|Second|Third|Fourth|Fifth|Sixth|Seventh|Eighth|Ninth|Tenth|Eleventh|Twelfth|Thirteenth|Fourteenth|Fifteenth|Sixteenth|Seventeenth|Eighteenth|Nineteenth|Twentieth|Twenty-first|Twenty-second|Twenty-third|Twenty-fourth|Twenty-fifth|Twenty-sixth|Twenty-seventh|Twenty-eighth|Twenty-ninth|Thirtieth) Sunday (after|of|in)", line, flags=re.IGNORECASE):
-            # # line = translate_summary(line)
-        
-        # # # 7. 翻譯並清理行首標籤
-        # # clean_trans = translate_text(line, cycle_label, season, sunday)
-        # # clean_trans = re.sub(r"^(第一部分讀經|第二部分讀經|福音經課|補充經課|經課與詩篇)[\s:]*", "", clean_trans).strip()
-        # # new_lines.append(clean_trans)
-
-    # # description = "\n".join(new_lines)
-    
-    # new_lines = []
-    # for line in description.splitlines():
-        # line = line.strip()
-        # if not line:
-            # continue
-            
-        # # 0. 清理亂碼與網址
-        # line = re.sub(r'[–—−\x96\x97\u2013\u2014]', '-', line)
-        # if "http" in line:
-            # continue
-            
-        # # 1. 【黑名單】如果整行被括號包住 (例如替代經文或冗餘註解)，直接踢掉！
-        # if line.startswith("(") and line.endswith(")"):
-            # continue
-
-        # # 2. 【白名單】判斷這行有沒有「書卷名稱」+「數字」
-        # has_book = False
-        # for eng_book in book_map.keys():
-            # # 使用 \b 確保比對的是獨立單字 (例如找 Job 不會抓到 good job)
-            # if re.search(rf'\b{re.escape(eng_book)}\b', line, flags=re.IGNORECASE) and re.search(r'\d', line):
-                # has_book = True
-                # break
-                
-        # # 3. 只要符合白名單，這行就是我們要的經文！進行翻譯並加入
-        # if has_book:
-            # line = re.sub(r'\s+and\s+', ' 與 ', line, flags=re.IGNORECASE)
-            # line = re.sub(r'\s+or\s+', ' 或 ', line, flags=re.IGNORECASE)
-            # clean_trans = translate_text(line, cycle_label, season, sunday)
-            # # 清理偶爾跟經文黏在同一行的標題 (如果有的話)
-            # clean_trans = re.sub(r"^(第一部分讀經|第二部分讀經|福音經課|補充經課|經課與詩篇)[\s:]*", "", clean_trans).strip()
-            # new_lines.append(clean_trans)
-
-    # description = "\n".join(new_lines)    
-    # # 🦃 感恩節專屬彩蛋 (特赦火雞，會跟著存入模板庫傳承百年) 🦃
-    # if sunday == "Thanksgiving":
-        # egg_text = "🦃 太18:18 我實在告訴你們，凡你們在地上所捆綁的，在天上也要捆綁；凡你們在地上所釋放的，在天上也要釋放。 🦃"
-        # if egg_text not in description:
-            # description = (description + "\n\n" + egg_text).strip()
-
-    # hymn_text = get_hymn_text(summary_text, start_date)
-    # if not hymn_text:
-        # stats["no_hymn"].append(f"{start_date.strftime('%Y%m%d')} | {summary_text}")
-    # if hymn_text:
-        # description += "\n\n今日詩歌：\n" + hymn_text
-    # # --- 🌟 依據講義與客製化需求加入「代表顏色」 ---
-    # color_str = get_liturgical_color(season, sunday)
-    # if color_str:
-        # description += f"\n\n代表顏色：{color_str}"
-
-    # meaning_str = season_meaning_map.get(season, "")
-    # if meaning_str:
-        # description += f"\n節期意義：{meaning_str}"
-
-    # chinese_cycle = {"A": "甲年", "B": "乙年", "C": "丙年"}[cycle_label]
-    # subject = f"{subject} ({chinese_cycle})"
-    
-    # # 👇 將洗好的乾淨文字存入模板庫，留給未來生成使用！
-    # perfect_templates[(cycle_label, season, sunday)] = description 
-
-    # event = Event()
-    # event.add("summary", subject)
-    # event.add("description", description if description.strip() else subject)
-    # event.add("dtstart", start_date)
-    # event.add("dtend", end_date)
-    # cn_cal.add_component(event)
-    # stats["yearly_count"][start_date.year] += 1
-
-    # # 收集資料供報告使用
-    # all_final_events.append({"date": check_date, "name": summary_text, "source": "original","description": description})
 # 用來記錄已經處理過的日期
 seen_dates_original = set()
 
-# 👇 新增：完美的模板庫
+# 👇 完美的模板庫
 perfect_templates = {}
 
 # === 事件處理主流程 ===
@@ -2183,12 +1702,12 @@ for component in cal.walk():
 
         summary_text = str(component.get("summary"))
         # =====================================================================
-        # 🌟 實作您的策略：過濾 Vanderbilt 混進來的「週間每日讀經」雜訊
+        # 🌟 過濾 Vanderbilt 混進來的「週間每日讀經」雜訊
         # =====================================================================
         is_sunday = (check_date.weekday() == 6)
         summary_lower = summary_text.lower()
 
-        # 1. 必殺技：如果是「平日」，但英文原始名字裡竟然有 "Sunday"，絕對是假主日！
+        # 1. 如果是「平日」，但英文原始名字裡竟然有 "Sunday"，絕對是假主日！
         # 這會精準秒殺週三的「Fourth Sunday」或週一的「First Sunday after Christmas」
         if not is_sunday and "sunday" in summary_lower:
             continue
@@ -2218,8 +1737,6 @@ for component in cal.walk():
         description = str(component.get("description", ""))
         description = description.replace("–", "-").replace("–", "-").replace("—", "-")
         
-        # =======================================================
-        # 🚀 「大道至簡」無敵過濾邏輯 (直接套用在單一事件上)
         # =======================================================
         new_lines = []
         for line in description.splitlines():
@@ -2296,7 +1813,7 @@ for component in cal.walk():
         stats["yearly_count"][start_date.year] += 1
 
         all_final_events.append({"date": check_date, "name": summary_text, "source": "original","description": description})        
-# === 新增：生成 2028/11/27 Advent 1 以後的事件 ===
+# === 生成 2028/11/27 Advent 1 以後的事件 ===
 canonical_set_with_formula = build_canonical_set_with_formula(cal)
 
 # 從 2028 Advent 1 開始生成，直到 END_YEAR 的教會年
@@ -2335,9 +1852,6 @@ for church_year in range(2028, END_YEAR+2):
             if is_english_title(translated_summary):
                 stats["untranslated"].append(f"{dt.strftime('%Y%m%d')} | {e['name']} -> {translated_summary}")
            
-            # =====================================================================
-            # 🚀 終極簡化：查字典套用模板！
-            # =====================================================================
             if (cycle_label, season, sunday) in perfect_templates:
                 # 情況 A：前三年有這個事件，直接無腦 Copy 第一個迴圈洗好的完美版！
                 description = perfect_templates[(cycle_label, season, sunday)]
@@ -2380,27 +1894,6 @@ for church_year in range(2028, END_YEAR+2):
                 "dt": dt,
                 "final_desc": description
             })
-
-    # # 2. 寫入 ICS 並建立「最終查閱表」 (Loop 2)
-    # # ★★★ 這裡最重要：只存最後被選上的事件 ★★★
-    # final_event_lookup = {} # Key: YYYYMMDD, Value: description
-    
-    # generated_dates = set()
-    # for dt_str in sorted(daily_buffer.keys()):
-        # candidates = daily_buffer[dt_str]
-        
-        # # 篩選邏輯：如果重疊，把泛用主日排後面 (保留特殊節期，或者您之前的邏輯)
-        # if len(candidates) > 1:
-            # candidates.sort(key=lambda x: (1 if is_generic_sunday(x["name"]) else 0))
-        
-        # selected = candidates[0]
-        # cn_cal.add_component(selected["event"])
-        # stats["yearly_count"][selected["dt"].year] += 1
-        # all_final_events.append({"date": selected["dt"], "name": selected["name"], "source": "generated", "description": selected["final_desc"]})
-        # generated_dates.add(dt_str)
-        
-        # # 存入查閱表：這就是那一天的「最終真相」
-        # final_event_lookup[dt_str] = selected["final_desc"]
 
     # 2. 寫入 ICS 並建立「最終查閱表」 (Loop 2)
     final_event_lookup = {} # Key: YYYYMMDD, Value: description
@@ -2662,55 +2155,6 @@ with open(report_file, "w", encoding="utf-8") as f:
         actual_dates_str = {e["date"].strftime('%Y%m%d') for e in current_events}
         count = len(current_events)
 
-        # # 分析重疊事件 (同一天有多個事件)
-        # date_counts = defaultdict(list)
-        # for e in current_events:
-            # d_str = e["date"].strftime('%Y%m%d')
-            # date_counts[d_str].append(e["name"])
-        
-        # duplicates = []
-        # for d, names in date_counts.items():
-            # if len(names) > 1:
-                # duplicates.append(f"{d}: {', '.join(names)}")
-
-        # # 分析自動補全事件
-        # auto_filled = [f"{e['date'].strftime('%Y%m%d')}" for e in current_events if "Auto-filled" in e["name"] or "自動補全" in e["name"]]
-
-        # # 狀態判定
-        # status_msgs = []
-        # if not auto_filled and not duplicates:
-            # status_msgs.append("完整")
-        # else:
-            # if duplicates: status_msgs.append(f"含 {len(duplicates)} 組重疊")
-            # if auto_filled: status_msgs.append(f"補 {len(auto_filled)} 個主日")
-
-        # # 檢查是否有缺失主日 (理論上應該沒有了)
-        # curr_sun = adv1_start
-        # missing_sundays = []
-        # while curr_sun < adv1_next:
-            # if curr_sun.strftime('%Y%m%d') not in actual_dates_str:
-                # missing_sundays.append(curr_sun.strftime('%Y%m%d'))
-            # curr_sun += timedelta(days=7)
-        
-        # if missing_sundays: status_msgs.append(f"缺 {len(missing_sundays)} 主日")
-        # # ==========================================
-        # # ★ 新增這三行：如果狀態完整且無缺失，就跳過不印！
-        # if status_msgs == ["完整"] and not missing_sundays:
-            # continue
-        # has_anomalies = True
-        # # ==========================================
-
-        # # 輸出主行
-        # date_range = f"[{adv1_start.strftime('%Y%m%d')} ~ {(adv1_next - timedelta(days=1)).strftime('%Y%m%d')}]"
-        # f.write(f"{yr:<10} ({cycle}) {date_range:<32} | {count:<7} | {', '.join(status_msgs)}\n")
-
-        # # 輸出詳細資訊
-        # if duplicates:
-            # f.write(f"      └─ 重疊事件: {'; '.join(sorted(duplicates))}\n")
-        # if auto_filled:
-            # f.write(f"      └─ 自動補全: {', '.join(sorted(auto_filled))}\n")
-        # if missing_sundays:
-            # f.write(f"      └─ 缺失主日: {', '.join(missing_sundays)}\n")
         # 分析自動補全事件
         auto_filled = [f"{e['date'].strftime('%Y%m%d')}" for e in current_events if "Auto-filled" in e["name"] or "自動補全" in e["name"]]
 
