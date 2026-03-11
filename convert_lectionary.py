@@ -3,6 +3,7 @@ from collections import defaultdict
 from datetime import date, timedelta
 import datetime
 import re
+import urllib.parse
 
 summary_map = {
     # Advent
@@ -850,6 +851,64 @@ scripture_patch = {
     }
 }
 
+# === 新增：微讀聖經專屬對照表與解析器 ===
+wdb_book_map = {
+    "創世記": "gen", "出埃及記": "exo", "利未記": "lev", "民數記": "num", "申命記": "deu",
+    "約書亞記": "jos", "士師記": "jdg", "路得記": "rut", "撒母耳記上": "1sa", "撒母耳記下": "2sa",
+    "列王紀上": "1ki", "列王紀下": "2ki", "歷代志上": "1ch", "歷代志下": "2ch", "以斯拉記": "ezr",
+    "尼希米記": "neh", "以斯帖記": "est", "約伯記": "job", "詩篇": "psa", "箴言": "pro",
+    "傳道書": "ecc", "雅歌": "sng", "以賽亞書": "isa", "耶利米書": "jer", "耶利米哀歌": "lam",
+    "以西結書": "ezk", "但以理書": "dan", "何西阿書": "hos", "約珥書": "jol", "阿摩司書": "amo",
+    "俄巴底亞書": "oba", "約拿書": "jon", "彌迦書": "mic", "那鴻書": "nam", "哈巴谷書": "hab",
+    "西番雅書": "zep", "哈該書": "hag", "撒迦利亞書": "zec", "瑪拉基書": "mal",
+    "馬太福音": "mat", "馬可福音": "mrk", "路加福音": "luk", "約翰福音": "jhn", "使徒行傳": "act",
+    "羅馬書": "rom", "哥林多前書": "1co", "哥林多後書": "2co", "加拉太書": "gal", "以弗所書": "eph",
+    "腓立比書": "php", "歌羅西書": "col", "帖撒羅尼迦前書": "1th", "帖撒羅尼迦後書": "2th",
+    "提摩太前書": "1ti", "提摩太後書": "2ti", "提多書": "tit", "腓利門書": "phm", "希伯來書": "heb",
+    "雅各書": "jas", "彼得前書": "1pe", "彼得後書": "2pe", "約翰一書": "1jn", "約翰二書": "2jn",
+    "約翰三書": "3jn", "猶大書": "jud", "啟示錄": "rev"
+}
+
+def get_scripture_links(line):
+    """將經文行拆解，並產生微讀聖經 (wdbible) 的直達連結"""
+    result_lines = [line] 
+    
+    # 依照 '與' 或 '或' 切割字串 (例如 "創世記 2:18-24 與 詩篇 8")
+    sub_passages = re.split(r'\s*(?:與|或)\s*', line)
+    
+    for sub in sub_passages:
+        sub = sub.strip()
+        if not sub: continue
+            
+        # 嘗試解析出：書卷(中文)、章、節
+        match = re.search(r"([\u4e00-\u9fa5]+)\s*(\d+)(?::([\d\-a-z, \(\)]+))?", sub)
+        if match:
+            book_zh = match.group(1)
+            chapter = match.group(2)
+            verses_raw = match.group(3)
+            
+            wdb_code = wdb_book_map.get(book_zh)
+            
+            # 如果是標準的 66 卷書
+            if wdb_code:
+                url = f"https://wdbible.com/tw/bible/{wdb_code}.{chapter}.cunpt"
+                # 如果有特定的節數 (例如 7-10)，抓取第一組數字來做定錨標籤
+                if verses_raw:
+                    v_match = re.search(r'\d+(?:-\d+)?', verses_raw)
+                    if v_match:
+                        url += f"#{v_match.group(0)}"
+                        
+                result_lines.append(f"   📖 閱讀 {book_zh}: {url}")
+                continue # 成功產生直達連結，跳過後面的搜尋退路
+                
+        # 備案：如果解析失敗，或是遇到次經 (例如 所羅門智訓)，退回使用微讀聖經的搜尋
+        clean_query = re.sub(r'[\(\)]', '', sub).strip()
+        fallback_url = f"https://wdbible.com/search?q={urllib.parse.quote(clean_query)}"
+        book_name = sub.split()[0] if sub else "經文"
+        result_lines.append(f"   📖 閱讀 {book_name}: {fallback_url}")
+        
+    return "\n".join(result_lines)
+
 def replace_with_map(text: str, mapping: dict) -> str:
     """
     使用 mapping 做字串替換：
@@ -1250,8 +1309,34 @@ def get_hymn_text(summary: str, date: datetime.date = None) -> str:
 
     if not hymns:
         return ""
+    # === 新增：將詩歌加上 YouTube 搜尋連結 (高相容性手機版) ===
+    linked_hymns = []
+    for h in hymns:
+        # 先確認字串裡有沒有書名號 (代表有歌名)
+        if "《" in h and "》" in h:
+            # 擷取書名號內的歌名
+            song_name = h.split("《")[1].split("》")[0].strip()
+            
+            # 為了手機版 YouTube App 的相容性，改用「樂團名稱 + 歌名」的全域搜尋
+            if "小羊詩歌" in h:
+                search_kw = f"小羊詩歌 {song_name}"
+            elif "約書亞樂團" in h:
+                search_kw = f"約書亞樂團 {song_name}"
+            elif "讚美之泉" in h:
+                search_kw = f"讚美之泉 {song_name}"
+            else:
+                search_kw = song_name
+                
+            # 統一使用全域搜尋，保證手機 App 也能正確帶入搜尋字串
+            yt_url = f"https://www.youtube.com/results?search_query={urllib.parse.quote(search_kw)}"
+        else:
+            # 防呆：萬一格式寫錯沒有書名號，退回整行文字的全域搜尋
+            search_kw = h.replace("《", " ").replace("》", " ").replace("：", " ")
+            yt_url = f"https://www.youtube.com/results?search_query={urllib.parse.quote(search_kw)}"
+            
+        linked_hymns.append(f"{h}\n   ▶️ 點此聆聽: {yt_url}")
 
-    return "\n".join(hymns)
+    return "\n\n".join(linked_hymns)
     
 def calculate_advent1(year: int) -> date:
     """計算某年 Advent 1：11/27–12/3 之間的第一個主日"""
@@ -1668,6 +1753,7 @@ def get_liturgical_color(season, sunday):
         return "🟢 綠色" 
         
     return ""    
+
 # === 年度範圍設定 ===
 START_YEAR = 2025
 YEARS = 101
@@ -1768,7 +1854,8 @@ for component in cal.walk():
                 clean_trans = translate_text(line, cycle_label, season, sunday)
                 # 清理偶爾跟經文黏在同一行的標題 (如果有的話)
                 clean_trans = re.sub(r"^(第一部分讀經|第二部分讀經|福音經課|補充經課|經課與詩篇)[\s:]*", "", clean_trans).strip()
-                new_lines.append(clean_trans)
+                # === 新增：呼叫函式產生多組智能連結 ===
+                new_lines.append(get_scripture_links(clean_trans))
 
         description = "\n".join(new_lines)
         
@@ -1860,8 +1947,17 @@ for church_year in range(2028, END_YEAR+2):
                 scripture_lines = scripture_patch.get(cycle_label, {}).get((season, sunday), [])
                 if not scripture_lines:
                     stats["no_scripture"].append(f"{dt.strftime('%Y%m%d')} | {translated_summary} ({e['name']})")
-                
-                desc_body = "\n".join(scripture_lines)
+                # === 新增：幫補丁經文加上連結 ===
+                processed_lines = []
+                for line in scripture_lines:
+                    if not line: continue
+                    # 判斷是否為經文 (有數字且不是【崇拜】標題)
+                    if re.search(r'\d', line) and not line.startswith("【"): 
+                        processed_lines.append(get_scripture_links(line))
+                    else:
+                        processed_lines.append(line)
+                        
+                desc_body = "\n\n".join(processed_lines)
                 hymn_text = get_hymn_text(e["name"], dt)
                 if not hymn_text:
                     stats["no_hymn"].append(f"{dt.strftime('%Y%m%d')} | {translated_summary} ({e['name']})")
@@ -1975,7 +2071,17 @@ for yr in range(START_YEAR, END_YEAR + 2):
     
     # 2. 抓取「三合一完美經文」
     scripture_lines = scripture_patch.get(cycle_label, {}).get((season, sunday), [])
-    desc_body = "\n".join(scripture_lines)
+    
+    # === 新增：幫聖誕節補丁經文加上連結 ===
+    processed_lines = []
+    for line in scripture_lines:
+        if not line: continue
+        if re.search(r'\d', line) and not line.startswith("【"):
+            processed_lines.append(get_scripture_links(line))
+        else:
+            processed_lines.append(line)
+            
+    desc_body = "\n\n".join(processed_lines)
     
     # 3. 抓取詩歌
     hymn_text = get_hymn_text(sunday, dt)
