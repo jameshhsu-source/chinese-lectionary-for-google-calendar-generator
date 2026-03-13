@@ -1,0 +1,33 @@
+Hello everyone!
+
+The creation of the 【Chinese Revised Common Lectionary (RCL) for Google Calendar】 was born out of the intersection of my three very different backgrounds:
+
+📖 I graduated from China Evangelical Seminary (CES) and am currently continuing my studies at Chinese Lutheran Seminary, deeply rooted in the Lutheran faith tradition. This has given me a fundamental understanding of and need for solid biblical study and the rhythm of the Revised Common Lectionary (RCL). I truly know the beauty of anchoring daily devotions in the church calendar.
+
+💻 As a programmer, I noticed a massive gap in the Chinese-speaking world: there wasn't an automated, accurate, and seamlessly integrated "Chinese RCL for Google Calendar" for modern Christians. Since I couldn't find one, I decided to code it into existence myself! This system precisely calculates and generates a Chinese RCL calendar that perfectly aligns with universal church liturgical standards.
+
+🎸 At the same time, serving as a worship leader for many years, I know firsthand the spiritual depth that comes from pairing daily devotions and Sunday service prep with music that echoes the current liturgical season and daily scriptures.
+
+Because I happen to have this unique blend of backgrounds, I am incredibly excited to share this carefully crafted 【Chinese RCL for Google Calendar】 with you all. Whether you are in the US, Asia, or anywhere else, please feel free to share this with your Chinese-speaking Christian friends, pastors, and church networks worldwide! I hope it becomes a wonderful blessing to global churches, preachers, worship teams, and brothers and sisters everywhere.
+
+📅 If you want to start using this calendar right away for your daily devotions, sermon prep, or selecting worship songs, there is no complicated setup required. Just click the link below to add it directly to your Google Calendar:
+👉 https://calendar.google.com/calendar/u/0/embed?src=ca5edcf8a68fa615a4a7a916472ca3e053782737ec35db1de35642351fa2ab24%40group.calendar.google.com&ctz=Asia%2FTaipei
+
+🤝 If you happen to have a similar background—you are more than welcome to visit this project's GitHub to connect and co-develop! Let's combine our God-given gifts to make this open-source resource for the Chinese-speaking community even better and more complete, blessing even more people in need:
+👉 https://github.com/jameshhsu-source/chinese-lectionary-for-google-calendar-generator
+
+大家好！【中文三代經課for Google Calendar】的誕生，源自於我身上三個不同領域背景的交集：
+
+📖 我畢業於華神，目前在信神持續進修，並身處於信義宗的信仰傳統中。這讓我對聖經研讀以及「三代經課（RCL）」的節奏有著基本的需求與認識，深知循著教會年曆靈修的美好。
+
+💻 身為一名程式設計師，我發現目前華人世界極度缺乏一套能完美整合進現代基督徒生活、自動化且精準的「中文三代經課for Google Calendar」。既然找不到，那我就用程式碼把它生出來！這套系統能精準推算並產製出符合普世教會規範的中文三代經課日曆。
+
+🎸 同時，作為多年的敬拜主領並對敬拜樂器的基礎認識，我深知在每日靈修與主日預備中，若能配搭與當日節期、經文相呼應的音樂，將對屬靈生命的沉澱帶來極大的益處。
+
+因為剛好擁有的獨特背景，我非常樂意將這套用心打磨的【中文三代經課for Google Calendar】分享給大家，希望能成為眾教會、講員、敬拜團與弟兄姊妹的祝福！
+
+📅 如果您想直接開始使用這份日曆進行每日靈修、準備講道或挑選敬拜詩歌，無需繁瑣設定，請直接點擊下方連結加入您的 Google 日曆：
+👉 https://calendar.google.com/calendar/u/0/embed?src=ca5edcf8a68fa615a4a7a916472ca3e053782737ec35db1de35642351fa2ab24%40group.calendar.google.com&ctz=Asia%2FTaipei
+
+🤝 如果您剛好也有著與我類似的背景——非常歡迎您來到這個專案的 GitHub 一起交流與開發！讓我們結合眾人的恩賜，讓這份專屬華人的開源資源變得更好、更完善，去祝福更多有需要的人：
+👉 https://github.com/jameshhsu-source/chinese-lectionary-for-google-calendar-generator
