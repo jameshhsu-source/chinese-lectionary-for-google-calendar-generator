@@ -1,0 +1,80 @@
+name: Sync Google Drive to GitHub
+
+on:
+  schedule:
+    # 設定定時執行（例如：每天半夜 00:00 執行一次 UTC時間）
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 支援在 GitHub 網頁上手動點擊觸發
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 檢出 GitHub 儲存庫
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # 2. 設定 Python 環境
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      # 3. 安裝 Google Drive API 套件
+      - name: Install Dependencies
+        run: |
+          pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+      # 4. 執行 Python 腳本下載 Google Drive 檔案
+      - name: Download Files from Google Drive
+        env:
+          GDRIVE_CREDENTIALS: ${{ secrets.GDRIVE_CREDENTIALS }}
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+        run: |
+          python - << 'EOF'
+          import os
+          import json
+          import io
+          from google.oauth2.service_account import Credentials
+          from googleapiclient.discovery import build
+          from googleapiclient.http import MediaIoBaseDownload
+
+          creds_json = json.loads(os.environ['GDRIVE_CREDENTIALS'])
+          folder_id = os.environ['GDRIVE_FOLDER_ID']
+
+          creds = Credentials.from_service_account_info(
+              creds_json, 
+              scopes=['https://www.googleapis.com/auth/drive.readonly']
+          )
+          service = build('drive', 'v3', credentials=creds)
+
+          # 查詢資料夾內的檔案
+          results = service.files().list(
+              q=f"'{folder_id}' in parents and trashed = false",
+              fields="files(id, name, mimeType)"
+          ).execute()
+          items = results.get('files', [])
+
+          for item in items:
+              # 避開 Google 原生文件格式（如 Docs/Sheets，需額外處理轉檔），只抓一般檔案/程式碼
+              if 'application/vnd.google-apps' not in item['mimeType']:
+                  print(f"Downloading {item['name']}...")
+                  request = service.files().get_media(fileId=item['id'])
+                  filepath = os.path.join('./', item['name'])
+                  with open(filepath, 'wb') as f:
+                      downloader = MediaIoBaseDownload(f, request)
+                      done = False
+                      while not done:
+                          status, done = downloader.next_chunk()
+          EOF
+
+      # 5. 將更新自動 Commit 並 Push 回 GitHub
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git status
+          # 如果有檔案變更才 Commit，避免噴錯
+          git diff-index --quiet HEAD || git commit -m "Auto sync files from Google Drive"
+          git push
